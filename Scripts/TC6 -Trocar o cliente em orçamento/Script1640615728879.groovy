@@ -21,25 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 
+WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Nome de usurio ou endereo de email'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email (1)'), 
     'joaofrancisco.frabetti@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha (1)'), 
     '8W3YzVZBmX7qefCTiF4kOg==')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/button_Login (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_1184'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Joao F Frabetti'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Trocar Cliente'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Trocar Cliente (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Cliente_clienteId'), 'jo')
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Cliente_clienteId (1)'), 'Jo')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/ngb-highlight_Joao Francisco Frabetti Vieir_9e0eda'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/ngb-highlight_Joao Francisco Frabetti Vieir_9e0eda (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_FotosCdigoDescrioQtde.Preo Tab.Desconto_80274b'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/a_Editar detalhes do pedido_bg-success floa_925a26 (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/a_Editar detalhes do pedido_bg-success floa_925a26'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Mensagem'), 0)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Mensagem (1)'), 'Mensagem')
 
