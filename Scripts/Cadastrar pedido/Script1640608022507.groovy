@@ -87,7 +87,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/button_Confirmar'))
 
 
 

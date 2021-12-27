@@ -21,21 +21,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 'mayara.moraes@dataplace.com.br')
+WebUI.doubleClick(findTestObject('Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email (1)'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/input_Senha_senha'), 'qQ83QJxV0tpHrL/eDa4HSA==')
+WebUI.setText(findTestObject('Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email (1)'), 
+    'joaofrancisco.frabetti@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/div_Login'))
+WebUI.setEncryptedText(findTestObject('Page_Dataplace - SFA/input_Senha_senha (1)'), 
+    '8W3YzVZBmX7qefCTiF4kOg==')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_1124 emitido por Mayara Normandia'), '# 1124 emitido por Mayara Normandia')
+WebUI.click(findTestObject('Page_Dataplace - SFA/div_Login (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_1124'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/div_1084 emitido por Joao F Frabetti       _7cff95'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cancelar'))
+WebUI.verifyElementVisible(findTestObject('Page_Dataplace - SFA/div_Gerar Pedido'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/div_Gerar Pedido'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Dataplace SFA/div_Pedido cancelado com sucesso'), 0)
+WebUI.verifyElementVisible(findTestObject('Page_Dataplace - SFA/button_Confirmar (1)'))
+
+WebUI.click(findTestObject('Page_Dataplace - SFA/button_Confirmar (1)'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Dataplace - SFA/div_Pedido gerado com sucesso'), 
+    0)
 
 WebUI.closeBrowser()
 

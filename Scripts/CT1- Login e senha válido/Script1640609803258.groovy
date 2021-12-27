@@ -27,7 +27,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/in
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/div_Login'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Dataplace SFA/div_Login realizado com suscesso'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Dataplace - SFA/div_Login realizado com suscesso (1)'), 0)
 
 WebUI.closeBrowser()
 
