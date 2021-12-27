@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dataplace SFA/div_Cancelar",
+      "brokenLocator": "//div[@id\u003d\u0027page-content-wrapper\u0027]/div/app-pedido-main-tabs/div/app-pedidos-detail/div[2]/button[3]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Enviar por e-mail\u0027])[1]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dataplace SFA/div_Cancelar_neighbor.png"
+    }
+  ]
 }
