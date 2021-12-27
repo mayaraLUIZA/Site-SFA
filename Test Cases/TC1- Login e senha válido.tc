@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Frabetti</description>
-   <name>CT1- Login e senha válido</name>
+   <name>TC1- Login e senha válido</name>
    <tag>Login/senha</tag>
    <comment></comment>
    <testCaseGuid>aa49cb42-8d4c-4fae-bfd2-e0e00d809ce9</testCaseGuid>
