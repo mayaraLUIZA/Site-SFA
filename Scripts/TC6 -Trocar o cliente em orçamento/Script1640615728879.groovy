@@ -43,3 +43,5 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace SFA/div_Mensagem'), 
     0)
 
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+
