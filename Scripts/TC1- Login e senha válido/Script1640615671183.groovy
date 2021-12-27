@@ -21,16 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos')
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email (5)'), 
     'joaofrancisco.frabetti@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('null'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha (5)'), 
     '8W3YzVZBmX7qefCTiF4kOg==')
 
-WebUI.click(findTestObject('null'))
-
-WebUI.verifyElementPresent(findTestObject('null'), 
-    0)
+WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login (1)'))
 
 WebUI.closeBrowser()
 
