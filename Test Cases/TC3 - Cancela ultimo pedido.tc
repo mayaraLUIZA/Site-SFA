@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3 - Cancela ultimo pedido</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>746eab2e-53e0-4720-a6bd-2ffca16c8e0f</testCaseGuid>
+</TestCaseEntity>
