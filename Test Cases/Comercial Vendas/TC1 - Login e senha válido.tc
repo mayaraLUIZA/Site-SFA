@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1 - Login e senha válido</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3f00308-da79-44b9-811a-5d755e92a8db</testCaseGuid>
+</TestCaseEntity>
