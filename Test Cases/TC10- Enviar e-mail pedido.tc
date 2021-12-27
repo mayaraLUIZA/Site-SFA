@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10- Enviar e-mail pedido</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e6b5c28-d9f9-477b-b73d-72a588596409</testCaseGuid>
+</TestCaseEntity>
