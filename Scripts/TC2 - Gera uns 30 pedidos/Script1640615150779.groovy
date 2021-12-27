@@ -21,7 +21,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 'raul.mariano@dataplace.com.br')
 
@@ -64,7 +64,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -118,7 +118,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -172,7 +172,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -226,7 +226,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -280,7 +280,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -334,7 +334,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -388,7 +388,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -441,7 +441,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -494,7 +494,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -547,7 +547,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -600,7 +600,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -653,7 +653,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -706,7 +706,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -759,7 +759,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -812,7 +812,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -865,7 +865,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -918,7 +918,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -971,7 +971,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1024,7 +1024,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1077,7 +1077,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1130,7 +1130,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1183,7 +1183,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1236,7 +1236,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1289,7 +1289,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1342,7 +1342,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1395,7 +1395,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1448,7 +1448,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1501,7 +1501,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1554,7 +1554,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1607,7 +1607,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1660,7 +1660,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
@@ -1713,7 +1713,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedid
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
