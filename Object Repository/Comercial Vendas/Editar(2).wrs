@@ -3,21 +3,21 @@
    <description></description>
    <name>Editar(2)</name>
    <tag></tag>
-   <locator>/Janela/Painel[1]/Janela[1]/Painel[2]/Editar[33]</locator>
+   <locator>/Janela/Painel[1]/Janela[1]/Editar[2]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
    <properties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ElementIndex</name>
       <type>Main</type>
-      <value>33</value>
+      <value>2</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>RuntimeId</name>
       <type>Main</type>
-      <value>42,133676</value>
+      <value>42,591660</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -59,14 +59,14 @@
       <matchCondition>equals</matchCondition>
       <name>ProcessId</name>
       <type>Main</type>
-      <value>9272</value>
+      <value>11376</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>NativeWindowHandle</name>
       <type>Main</type>
-      <value>133676</value>
+      <value>591660</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <matchCondition>equals</matchCondition>
       <name>AutomationId</name>
       <type>Main</type>
-      <value>84</value>
+      <value>7</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <matchCondition>equals</matchCondition>
       <name>BoundingRectangle</name>
       <type>Main</type>
-      <value>586;626;99;24</value>
+      <value>816;316;707;24</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -178,6 +178,6 @@
       <matchCondition>equals</matchCondition>
       <name>XPath</name>
       <type>Main</type>
-      <value>/Janela/Painel[1]/Janela[1]/Painel[2]/Editar[33]</value>
+      <value>/Janela/Painel[1]/Janela[1]/Editar[2]</value>
    </properties>
 </WindowsElementEntity>

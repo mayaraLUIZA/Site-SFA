@@ -19,17 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Windows.startApplicationWithTitle('\\\\P-arnaldo\\symfp2021r3\\Install\\Comercial_Vendas.exe', 'Comercial - Gestão de Vendas')
 
-Windows.setText(findWindowsObject('Object Repository/Comercial Vendas/Editar'), 'venda')
+Windows.setText(findWindowsObject('Object Repository/Comercial Vendas/Editar'), '')
 
-Windows.setText(findWindowsObject('Object Repository/Comercial Vendas/Editar(1)'), '')
+Windows.setText(findWindowsObject('Object Repository/Comercial Vendas/Editar(1)'), 'venda')
 
-Windows.setText(findWindowsObject('Object Repository/Comercial Vendas/Painel'), '')
+Windows.setText(findWindowsObject('Object Repository/Comercial Vendas/Editar(2)'), 'deu tudo certo')
 
-Windows.setText(findWindowsObject('Object Repository/Comercial Vendas/Editar(2)'), '')
-
-Windows.setText(findWindowsObject('Object Repository/Comercial Vendas/Editar(3)'), '')
-
-Windows.setText(findWindowsObject('Object Repository/Comercial Vendas/Painel(1)'), '')
+Windows.setText(findWindowsObject('Object Repository/Comercial Vendas/Boto'), 'Fechar')
 
 Windows.closeApplication()
 

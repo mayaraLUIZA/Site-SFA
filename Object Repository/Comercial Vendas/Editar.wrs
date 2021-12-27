@@ -3,7 +3,7 @@
    <description></description>
    <name>Editar</name>
    <tag></tag>
-   <locator>/Janela/Tab[1]/Painel[1]/Painel[1]/Painel[1]/Painel[1]/Painel[1]/Editar[1]</locator>
+   <locator>/Janela/Painel[2]/Editar[1]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
    <properties>
       <isSelected>false</isSelected>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>RuntimeId</name>
       <type>Main</type>
-      <value>42,787688</value>
+      <value>42,656416</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -59,21 +59,21 @@
       <matchCondition>equals</matchCondition>
       <name>ProcessId</name>
       <type>Main</type>
-      <value>9272</value>
+      <value>11376</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>NativeWindowHandle</name>
       <type>Main</type>
-      <value>787688</value>
+      <value>656416</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ClassName</name>
       <type>Main</type>
-      <value>WindowsForms10.EDIT.app.0.343d8c9_r16_ad1</value>
+      <value>WindowsForms10.EDIT.app.0.3553390_r16_ad1</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <matchCondition>equals</matchCondition>
       <name>AutomationId</name>
       <type>Main</type>
-      <value>txtSearch</value>
+      <value>656416</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <matchCondition>equals</matchCondition>
       <name>BoundingRectangle</name>
       <type>Main</type>
-      <value>3;660;196;20</value>
+      <value>790;482;310;13</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -136,7 +136,7 @@
       <matchCondition>equals</matchCondition>
       <name>HasKeyboardFocus</name>
       <type>Main</type>
-      <value>True</value>
+      <value>False</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <matchCondition>equals</matchCondition>
       <name>Name</name>
       <type>Main</type>
-      <value></value>
+      <value>Senha</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -171,13 +171,13 @@
       <matchCondition>equals</matchCondition>
       <name>IsPassword</name>
       <type>Main</type>
-      <value>False</value>
+      <value>True</value>
    </properties>
    <properties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>XPath</name>
       <type>Main</type>
-      <value>/Janela/Tab[1]/Painel[1]/Painel[1]/Painel[1]/Painel[1]/Painel[1]/Editar[1]</value>
+      <value>/Janela/Painel[2]/Editar[1]</value>
    </properties>
 </WindowsElementEntity>
