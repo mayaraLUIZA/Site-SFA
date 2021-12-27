@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 5 - Gera pedido e cancela</name>
+   <name>TC5 - Gera pedido e cancela</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>06d10a28-2a84-42ec-96e8-951e7b485366</testCaseGuid>
