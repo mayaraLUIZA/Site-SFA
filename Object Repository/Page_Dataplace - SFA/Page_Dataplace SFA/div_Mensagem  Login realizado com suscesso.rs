@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_1084 emitido por Joao F Frabetti       _7cff95</name>
+   <name>div_Mensagem  Login realizado com suscesso</name>
    <tag></tag>
-   <elementGuidId>32022936-9411-485d-913c-f363c3df1a16</elementGuidId>
+   <elementGuidId>fe49ad29-b221-427f-8773-d28b78db834d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@id='cardclick'])[7]</value>
+         <value>//div[@id='toast-container']/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.ng-tns-c59-0.ng-star-inserted.ng-trigger.ng-trigger-flyInOut.ngx-toastr.toast-success</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,73 +24,52 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>cardclick</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>card-header d-flex justify-content-between</value>
+      <value>ng-tns-c59-0 ng-star-inserted ng-trigger ng-trigger-flyInOut ngx-toastr toast-success</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> # 1084 emitido por Joao F Frabetti                          Em orçamento</value>
+      <value> Mensagem  Login realizado com suscesso! </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page-content-wrapper&quot;)/div[@class=&quot;container-fluid pt-2&quot;]/app-pedido-main-tabs[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;p-2&quot;]/app-pedidos-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;card mb-4 rounded ng-star-inserted&quot;]/div[@id=&quot;cardclick&quot;]</value>
+      <value>id(&quot;toast-container&quot;)/div[@class=&quot;ng-tns-c59-0 ng-star-inserted ng-trigger ng-trigger-flyInOut ngx-toastr toast-success&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//div[@id='cardclick'])[7]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-list/div[9]/div</value>
+      <value>//div[@id='toast-container']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baixado para o ERP'])[6]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='R$ 60,00'])[1]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='R$ 10,00'])[3]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[9]/div</value>
+      <value>//div[2]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,13 +21,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 'joaofrancisco.frabetti@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 
+    'joaofrancisco.frabetti@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/input_Senha_senha'), '8W3YzVZBmX7qefCTiF4kOg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'), 
+    '8W3YzVZBmX7qefCTiF4kOg==')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/div_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Dataplace - SFA/div_Login realizado com suscesso (1)'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Mensagem  Login realizado com suscesso'), 
+    0)
 
 WebUI.closeBrowser()
 
