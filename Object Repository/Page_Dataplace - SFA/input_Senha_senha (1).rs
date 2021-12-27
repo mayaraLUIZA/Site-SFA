@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Senha_senha</name>
+   <name>input_Senha_senha (1)</name>
    <tag></tag>
-   <elementGuidId>2cde232f-de50-4410-b70e-bb4f12d1c301</elementGuidId>
+   <elementGuidId>38622b16-fd23-48ab-90aa-1f3ab64f4bf6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
