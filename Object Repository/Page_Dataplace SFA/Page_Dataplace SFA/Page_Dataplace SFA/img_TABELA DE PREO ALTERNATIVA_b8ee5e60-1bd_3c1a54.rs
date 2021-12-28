@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Login</name>
+   <name>img_TABELA DE PREO ALTERNATIVA_b8ee5e60-1bd_3c1a54</name>
    <tag></tag>
-   <elementGuidId>0b2a979c-7c5d-480b-92f7-dc279041de7e</elementGuidId>
+   <elementGuidId>34294664-82e9-44d1-88a9-38c00deb0377</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='Login']/div</value>
+         <value>//img[@id='b8ee5e60-1bdc-4c67-ac1b-9c796c38a27b']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#Login > div</value>
+         <value>#b8ee5e60-1bdc-4c67-ac1b-9c796c38a27b</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,62 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>image_miniature</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Login</value>
+      <value>b8ee5e60-1bdc-4c67-ac1b-9c796c38a27b</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>http://172.16.1.21:7602/produtos/imagens/file/b8ee5e60-1bdc-4c67-ac1b-9c796c38a27b</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Login&quot;)/div[1]</value>
+      <value>id(&quot;b8ee5e60-1bdc-4c67-ac1b-9c796c38a27b&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//img[@id='b8ee5e60-1bdc-4c67-ac1b-9c796c38a27b']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='Login']/div</value>
+      <value>//div[@id='page-content-wrapper']/div/app-produto-main-tabs/div/app-produto-tab/div/app-produtos-list/div[2]/table/tbody/tr/td[2]/div/div/div/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:img</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Senha'])[1]/following::div[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nome de usuário ou endereço de email'])[1]/following::div[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Esqueci minha senha'])[1]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'Login', '&quot;', ')/div[1]')])[1]/preceding::div[1]</value>
+      <value>//img[contains(@src,'http://172.16.1.21:7602/produtos/imagens/file/b8ee5e60-1bdc-4c67-ac1b-9c796c38a27b')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button/div</value>
+      <value>//td[2]/div/div/div/img</value>
    </webElementXpaths>
 </WebElementEntity>

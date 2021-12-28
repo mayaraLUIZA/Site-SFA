@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_AGULHA CARB. OPALA_image_fill ng-star-inserted</name>
+   <tag></tag>
+   <elementGuidId>12143998-67cc-47cf-87db-f10598d68ddd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//img[contains(@src,'http://172.16.1.21:7602/produtos/imagens/file/e3c2a9c5-41c9-436d-9192-25fd17452b0e')])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.image_fill.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>image_fill ng-star-inserted</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>http://172.16.1.21:7602/produtos/imagens/file/e3c2a9c5-41c9-436d-9192-25fd17452b0e</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/ngb-modal-window[@class=&quot;d-block fade modal show&quot;]/div[@class=&quot;modal-dialog modal-xl&quot;]/div[@class=&quot;modal-content&quot;]/app-produto-imagem-viewer[1]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;d-flex justify-content-center&quot;]/div[@class=&quot;container_picture&quot;]/img[@class=&quot;image_fill ng-star-inserted&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[contains(@src,'http://172.16.1.21:7602/produtos/imagens/file/e3c2a9c5-41c9-436d-9192-25fd17452b0e')])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>

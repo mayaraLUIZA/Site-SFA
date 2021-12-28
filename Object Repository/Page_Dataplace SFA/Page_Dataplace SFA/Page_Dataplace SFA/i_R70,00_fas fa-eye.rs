@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_R70,00_fas fa-eye</name>
+   <tag></tag>
+   <elementGuidId>6c0073a5-21b9-4b51-b9a6-cda25b2a2ac2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-content-wrapper']/div/app-produto-main-tabs/div/app-produto-tab/div/app-produtos-list/div[2]/table/tbody/tr[2]/td/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-eye</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-content-wrapper&quot;)/div[@class=&quot;container-fluid pt-2&quot;]/app-produto-main-tabs[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;p-2&quot;]/app-produto-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;p-2&quot;]/app-produtos-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-sm-12 table-responsive d-flex flex-grow-1&quot;]/table[@class=&quot;table table-striped table-body table-skeleton ng-star-inserted&quot;]/tbody[1]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;align-middle text-secondary ng-star-inserted&quot;]/i[@class=&quot;fas fa-eye&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-content-wrapper']/div/app-produto-main-tabs/div/app-produto-tab/div/app-produtos-list/div[2]/table/tbody/tr[2]/td/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/i</value>
+   </webElementXpaths>
+</WebElementEntity>
