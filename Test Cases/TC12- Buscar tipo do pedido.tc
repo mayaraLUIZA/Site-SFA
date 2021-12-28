@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12- Buscar tipo do pedido</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc644356-2ce2-40d4-8fbf-5b815522a4dc</testCaseGuid>
+</TestCaseEntity>
