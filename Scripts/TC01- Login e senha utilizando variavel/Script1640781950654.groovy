@@ -31,8 +31,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Pa
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login (3)'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Mensagem (2)'), 'Mensagem', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Mensagem (2)'), mensagem, 
+    FailureHandling.OPTIONAL)
 
 WebUI.closeBrowser()
 
