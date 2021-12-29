@@ -27,12 +27,12 @@
       </testDataLink>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ceb8f90b-6997-4b73-be27-cbafca1d73d5</id>
+         <id>eec889d6-5683-403a-9d47-55c532da4acc</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Mensagens</testDataId>
+         <testDataId>Data Files/Mensagem</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>704de300-9e21-4dfa-b7b8-44b3e8e08e60</testDataLinkId>
@@ -47,9 +47,9 @@
          <variableId>56abc991-57ef-4c72-a09e-d06a57c39b01</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ceb8f90b-6997-4b73-be27-cbafca1d73d5</testDataLinkId>
+         <testDataLinkId>eec889d6-5683-403a-9d47-55c532da4acc</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Mensagem</value>
+         <value>mensagem</value>
          <variableId>aa2fdd54-e8b6-4cd7-9afa-2c5b9605c796</variableId>
       </variableLink>
    </testCaseLink>
