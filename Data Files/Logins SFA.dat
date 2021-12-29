@@ -8,17 +8,19 @@
    <dataFileGUID>8b7e454b-8aac-4581-9f5c-75656d834a02</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>raul.mariano%40dataplace.com.br Ugb6VGNHHiOaPeACAdHanQ%3D%3D</data>
    <data>raul.mariano%40dataplace.com.br yygGFEFk8bVnh3IMuDosDQ%3D%3D</data>
+   <data>mayara.moraes%40dataplace.com.br qQ83QJxV0tpHrL%2FeDa4HSA%3D%3D</data>
+   <data>raul.mariano%40dataplace.com.br EgoX6C7m1Az5r0r1YQ9bpQ%3D%3D</data>
+   <data>null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
