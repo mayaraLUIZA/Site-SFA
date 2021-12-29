@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01- Login e senha utilizando variavel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28a76a6b-9f5c-445e-83ad-120208039d94</testCaseGuid>
+   <variable>
+      <defaultValue>'joaofrancisco.frabetti@gmail.com\r\n'</defaultValue>
+      <description></description>
+      <id>41f6954f-717b-4cc3-a298-09769514bfb5</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'8W3YzVZBmX7qefCTiF4kOg=='</defaultValue>
+      <description></description>
+      <id>56abc991-57ef-4c72-a09e-d06a57c39b01</id>
+      <masked>false</masked>
+      <name>Senha</name>
+   </variable>
+</TestCaseEntity>
