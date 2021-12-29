@@ -5,4 +5,11 @@
    <tag>Login/senha</tag>
    <comment></comment>
    <testCaseGuid>aa49cb42-8d4c-4fae-bfd2-e0e00d809ce9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b26e46d0-2960-4d14-bfe1-68327d4c9d4d</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
 </TestCaseEntity>
