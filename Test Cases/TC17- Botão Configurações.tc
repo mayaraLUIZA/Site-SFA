@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Transportadora
+Condição de Pagamento
+Tipo de Pedido
+Status do Pedido</description>
+   <name>TC17- Botão Configurações</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49d9f06d-f842-4fe6-9066-def734c9b557</testCaseGuid>
+</TestCaseEntity>
