@@ -31,6 +31,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace SFA/Page
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace - SFA/div_Login (2)'))
 
+WebUI.setViewPortSize(703, 347)
+
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/div_1185'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/div_Enviar por e-mail'))
