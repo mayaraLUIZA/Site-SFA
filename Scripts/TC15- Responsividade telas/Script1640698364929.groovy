@@ -29,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace SFA/Page
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/button_Login'))
 
+WebUI.setViewPortSize(347, 703)
+
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Configuraes'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/nav_Mayara Normandia                       _d83259'))
