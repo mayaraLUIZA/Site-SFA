@@ -19,68 +19,39 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email (11)'), 
-    'joaofrancisco.frabetti@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 'joaofrancisco.frabetti@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Senha (2)'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/input_Senha_senha'), '8W3YzVZBmX7qefCTiF4kOg==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha (11)'), 
-    '8W3YzVZBmX7qefCTiF4kOg==')
+WebUI.sendKeys(findTestObject('Object Repository/Page_Dataplace - SFA/input_Senha_senha'), Keys.chord(Keys.ENTER))
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/button_Login (5)'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Cadastrar pedido (1)'))
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Cliente_clienteId'), 'Premium')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Cliente'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/span_Cliente'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Cliente_clienteId (3)'), 'Premiu')
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Tipo de pedido_tipoPedido'), 'Vendas_ST')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Premium RS - Premium RS - 37908809000126 (1)'))
+WebUI.click(findTestObject('Page_Dataplace SFA/button_Vendas'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Tipo de pedido_tipoPedido (2)'), 
-    'Ven')
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/i_Editar detalhes do pedido_fa fa-check my-float'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/ngb-highlight_Vendas_ST (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Produto'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Tipo de pedido_tipoPedido (2)'), 
-    'Vendas_ST')
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Produto_typeahead-produto'), '8029ST')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/i_Editar detalhes do pedido_fa fa-check my-float (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/ngb-highlight_COIFA CAIXA DIREO'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto (1)'), 
-    '8029')
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Produto_typeahead-produto'), '8029ST')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_COIFA CAIXA DIREAO a - 8029ST'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Confirmar'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto (1)'), 
-    '8029')
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedido'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Quantidade'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Quantidade_quantidade (1)'), 
-    '2')
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_R_precoLiquido'))
-
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Confirmar'))
-
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Gerar Pedido (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/button_Confirmar (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Pedidos'))
-
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Pedidos'))
-
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/a_Pedidos'))
-
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Dados do pedido (obrigatrio)'))
-
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/nav_Joao F Frabetti                        _3d45c6'))
-
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Pedidos'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
 
 WebUI.closeBrowser()
 
