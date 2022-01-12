@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Senha_senha</name>
    <tag></tag>
-   <elementGuidId>2cde232f-de50-4410-b70e-bb4f12d1c301</elementGuidId>
+   <elementGuidId>eafba80d-cbe8-45dd-8ef2-efbce85c4519</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

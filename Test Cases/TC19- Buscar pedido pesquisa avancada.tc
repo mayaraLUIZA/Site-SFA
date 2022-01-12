@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC19- Buscar pedido pesquisa avancada</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>926cc957-35c8-463b-9d05-c82da5e9d927</testCaseGuid>
+</TestCaseEntity>
