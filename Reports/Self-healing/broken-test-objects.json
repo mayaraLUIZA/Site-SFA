@@ -19,6 +19,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dataplace SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email (1)_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/input_Descontos_44334dba-539d-404b-ae94-043_2c4642",
+      "brokenLocator": "//input[@id\u003d\u002744334dba-539d-404b-ae94-043b0c432f0c\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/input_Descontos_44334dba-539d-404b-ae94-043_2c4642_position.png"
     }
   ]
 }
