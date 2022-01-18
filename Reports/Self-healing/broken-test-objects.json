@@ -29,6 +29,66 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/input_Descontos_44334dba-539d-404b-ae94-043_2c4642_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_1561",
+      "brokenLocator": "//div[@id\u003d\u0027cardclick\u0027]/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027emitido por\u0027])[1]/preceding::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_1561_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input_Descontos_5dd06407-b2cb-4224-837b-513_dd6b36",
+      "brokenLocator": "//input[@id\u003d\u00275dd06407-b2cb-4224-837b-513837b9b0be\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input_Descontos_5dd06407-b2cb-4224-837b-513_dd6b36_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input__3f8f7512-e2a0-48b7-b774-29f7482568cf",
+      "brokenLocator": "//input[@id\u003d\u00273f8f7512-e2a0-48b7-b774-29f7482568cf\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input__3f8f7512-e2a0-48b7-b774-29f7482568cf_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input__d631c3c2-597a-4934-af82-be96947eab42",
+      "brokenLocator": "//input[@id\u003d\u0027d631c3c2-597a-4934-af82-be96947eab42\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[3]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input__d631c3c2-597a-4934-af82-be96947eab42_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input__bcd54156-0a01-4fed-b44e-e35d9beaf960",
+      "brokenLocator": "//input[@id\u003d\u0027bcd54156-0a01-4fed-b44e-e35d9beaf960\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input__bcd54156-0a01-4fed-b44e-e35d9beaf960_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input__c080f182-f651-4916-af4e-1cc19e1cfc41",
+      "brokenLocator": "//input[@id\u003d\u0027c080f182-f651-4916-af4e-1cc19e1cfc41\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[5]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input__c080f182-f651-4916-af4e-1cc19e1cfc41_position.png"
     }
   ]
 }
