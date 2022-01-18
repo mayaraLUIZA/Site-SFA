@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC22- Excluir produto do pedido</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d2933c1-64c6-43c9-ba7d-c996fe18c2c6</testCaseGuid>
+</TestCaseEntity>

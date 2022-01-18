@@ -89,6 +89,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input__c080f182-f651-4916-af4e-1cc19e1cfc41_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input_Descontos_3a566c91-6a19-4a24-9026-e37_aaa2d3",
+      "brokenLocator": "//input[@id\u003d\u00273a566c91-6a19-4a24-9026-e3785e8756c2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input_Descontos_3a566c91-6a19-4a24-9026-e37_aaa2d3_position.png"
     }
   ]
 }
