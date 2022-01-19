@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Senha_senha</name>
    <tag></tag>
-   <elementGuidId>2cde232f-de50-4410-b70e-bb4f12d1c301</elementGuidId>
+   <elementGuidId>74187cd0-37f8-4be5-ab48-2b7604e5a611</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

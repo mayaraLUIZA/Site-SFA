@@ -19,28 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos')
+WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace - SFA/form_LoginNome de usurio ou endereo de emai_327498'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email (2)'), 
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 
     'mayara.moraes@dataplace.com.br')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace - SFA/input_Senha_senha (2)'), 
-    'qQ83QJxV0tpHrL/eDa4HSA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'), 
+    'jBu/h84nUum0DzfFUdyvAQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace - SFA/div_Login (2)'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login'))
 
+WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/div_1584'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/div_1185'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/div_Enviar por e-mail'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/div_Enviar por e-mail'))
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/input_Enviar por e-mail_form-control ng-unt_f4d8b2'), 
+    'normandiamayaragmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/input_Enviar por e-mail_form-control ng-unt_f4d8b2'), 
-    'normandiamayara@gmail.com')
-
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/textarea_Mensagem do e-mail_cabecalhoTexto'), 
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/textarea_Mensagem do e-mail_cabecalhoTexto'), 
     'teste')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/button_Enviar'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/div_Enviar'))
 
