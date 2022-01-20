@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplac
     'mayara.moraes@dataplace.com.br')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/input_Senha_senha'), 
-    'qQ83QJxV0tpHrL/eDa4HSA==')
+    'jBu/h84nUum0DzfFUdyvAQ==')
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/button_Login'))
 

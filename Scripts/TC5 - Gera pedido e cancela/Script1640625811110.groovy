@@ -55,7 +55,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirma
 
 WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_1180'))
+WebUI.click(findTestObject('Page_Dataplace SFA/div_1589'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/i_Enviar por e-mail_fas text-danger fa-time_2845d7'))
 

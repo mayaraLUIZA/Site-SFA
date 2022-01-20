@@ -43,3 +43,4 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplac
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Mensagem (1)'), 'Mensagem')
 
+WebUI.closeBrowser()

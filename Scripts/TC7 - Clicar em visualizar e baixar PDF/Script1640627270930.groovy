@@ -36,7 +36,5 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplac
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Download PDF'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/span_'))
-
 WebUI.closeBrowser()
 
