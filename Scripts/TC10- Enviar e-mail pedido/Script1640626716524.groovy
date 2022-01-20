@@ -21,23 +21,32 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.1.21:7802/pt/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 
     'mayara.moraes@dataplace.com.br')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/input_Senha_senha'), 
     'jBu/h84nUum0DzfFUdyvAQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/div_1584'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_1561'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/div_Enviar por e-mail'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Enviar por e-mail'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/input_Enviar por e-mail_form-control ng-unt_f4d8b2'), 
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/input_Enviar por e-mail_form-control ng-unt_f4d8b2'), 
     'normandiamayaragmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/textarea_Mensagem do e-mail_cabecalhoTexto'), 
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/textarea_Mensagem do e-mail_cabecalhoTexto'), 
     'teste')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/div_Enviar'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Enviar'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/input_Enviar por e-mail_form-control ng-unt_f4d8b2'), 
+    'normandia@mayaragmail.com')
+
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_CancelarEnviar'))
+
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Enviar'))
 

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Teste login,Chrome 97.0.4692.71,,,2022-01-20 09:32:47,2022-01-20 09:33:01,"14,489s",PASSED
+,,,,,,,
+Test Cases/TC01- Login e senha utilizando variavel,Chrome 97.0.4692.71,,,2022-01-20 09:32:47,2022-01-20 09:32:55,"7,958s",PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-20 09:32:48,2022-01-20 09:32:50,"2,405s",PASSED
+"navigateToUrl(""http://172.16.1.21:7802/pt/"")",Chrome 97.0.4692.71,,,2022-01-20 09:32:50,2022-01-20 09:32:51,"1,025s",PASSED
+"setText(findTestObject(""Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email (9)""), username)",Chrome 97.0.4692.71,,,2022-01-20 09:32:51,2022-01-20 09:32:52,"0,889s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Senha (1)""))",Chrome 97.0.4692.71,,,2022-01-20 09:32:52,2022-01-20 09:32:53,"0,420s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha (9)""), password)",Chrome 97.0.4692.71,,,2022-01-20 09:32:53,2022-01-20 09:32:53,"0,529s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login (3)""))",Chrome 97.0.4692.71,,,2022-01-20 09:32:53,2022-01-20 09:32:54,"0,544s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Mensagem (2)""), mensagem, OPTIONAL)",Chrome 97.0.4692.71,,,2022-01-20 09:32:54,2022-01-20 09:32:55,"0,978s",PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-20 09:32:55,2022-01-20 09:32:55,"0,645s",PASSED
+,,,,,,,
+Test Cases/TC01- Login e senha utilizando variavel,Chrome 97.0.4692.71,,,2022-01-20 09:32:55,2022-01-20 09:33:01,"6,019s",PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-20 09:32:55,2022-01-20 09:32:57,"1,247s",PASSED
+"navigateToUrl(""http://172.16.1.21:7802/pt/"")",Chrome 97.0.4692.71,,,2022-01-20 09:32:57,2022-01-20 09:32:58,"0,937s",PASSED
+"setText(findTestObject(""Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email (9)""), username)",Chrome 97.0.4692.71,,,2022-01-20 09:32:58,2022-01-20 09:32:58,"0,906s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Senha (1)""))",Chrome 97.0.4692.71,,,2022-01-20 09:32:58,2022-01-20 09:32:59,"0,423s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha (9)""), password)",Chrome 97.0.4692.71,,,2022-01-20 09:32:59,2022-01-20 09:32:59,"0,468s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login (3)""))",Chrome 97.0.4692.71,,,2022-01-20 09:32:59,2022-01-20 09:33:00,"0,528s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Mensagem (2)""), mensagem, OPTIONAL)",Chrome 97.0.4692.71,,,2022-01-20 09:33:00,2022-01-20 09:33:01,"0,862s",PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-20 09:33:01,2022-01-20 09:33:01,"0,634s",PASSED
