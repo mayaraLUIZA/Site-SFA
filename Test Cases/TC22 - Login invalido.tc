@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC1A - Login e senha válido (arnaldo)</name>
+   <name>TC22 - Login invalido</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7f148c08-3161-452f-bc2a-7ca50ddacedc</testCaseGuid>
