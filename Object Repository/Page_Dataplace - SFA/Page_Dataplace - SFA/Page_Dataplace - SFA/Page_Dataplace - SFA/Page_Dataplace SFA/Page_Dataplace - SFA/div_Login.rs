@@ -6,12 +6,12 @@
    <elementGuidId>be84971b-e1a8-48bf-a24a-44563ca7d042</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Login > div</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='Login']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Login > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

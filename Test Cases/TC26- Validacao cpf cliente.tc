@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC26- Validacao cpf cliente</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f9db4d6-d0b9-481c-b8dd-5a50dadb87c9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88f421ed-e184-432b-b963-a6bb42a069cb</id>
+      <masked>false</masked>
+      <name>cpf</name>
+   </variable>
+</TestCaseEntity>

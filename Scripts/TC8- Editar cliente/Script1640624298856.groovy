@@ -41,5 +41,5 @@ WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Datapl
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/i_Salvar_fa fa-check my-float'))
 
-WebUI.closeBrowser()
+
 

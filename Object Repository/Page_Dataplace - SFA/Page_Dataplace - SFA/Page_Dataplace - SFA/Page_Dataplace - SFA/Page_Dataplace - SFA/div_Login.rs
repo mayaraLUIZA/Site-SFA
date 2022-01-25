@@ -6,12 +6,12 @@
    <elementGuidId>19046917-c9dc-4a8f-9943-e50e4adc9c0a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Login > div</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='Login']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Login > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -78,5 +78,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Login' or . = 'Login')]</value>
    </webElementXpaths>
 </WebElementEntity>

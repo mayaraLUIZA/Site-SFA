@@ -6,12 +6,12 @@
    <elementGuidId>1339e51a-3ee0-457e-b589-006ac717da31</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#precoLiquido</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='precoLiquido']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#precoLiquido</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

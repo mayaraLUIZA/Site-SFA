@@ -6,12 +6,12 @@
    <elementGuidId>0cabf338-467f-47c0-be75-b639d8069bae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#inscricaoFederal</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='inscricaoFederal']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#inscricaoFederal</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -85,5 +85,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @id = 'inscricaoFederal']</value>
    </webElementXpaths>
 </WebElementEntity>

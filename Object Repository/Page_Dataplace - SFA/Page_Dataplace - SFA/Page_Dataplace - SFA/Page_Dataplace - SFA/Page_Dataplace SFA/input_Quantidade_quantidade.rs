@@ -6,12 +6,12 @@
    <elementGuidId>42a52e4a-5675-418d-94e8-85e407c61055</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#quantidade</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='quantidade']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#quantidade</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-valid ng-star-inserted ng-touched ng-dirty</value>
+      <value>form-control ng-untouched ng-valid ng-star-inserted ng-dirty</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
