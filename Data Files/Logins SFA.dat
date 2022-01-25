@@ -10,15 +10,17 @@
    <driver>InternalData</driver>
    <data>raul.mariano%40dataplace.com.br yygGFEFk8bVnh3IMuDosDQ%3D%3D</data>
    <data>mayara.moraes%40dataplace.com.br jBu%2Fh84nUum0DzfFUdyvAQ%3D%3D</data>
+   <data>teste%40teste.com.br hPTpZludBQ0%3D</data>
+   <data>dpsuporte%40dataplace.com.br m151jt0GQZs1bqAXx0do3Q%3D%3D</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
