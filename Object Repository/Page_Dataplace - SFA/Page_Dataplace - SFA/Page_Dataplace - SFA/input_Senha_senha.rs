@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-invalid ng-touched is-invalid ng-dirty</value>
+      <value>form-control ng-untouched ng-invalid ng-dirty</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

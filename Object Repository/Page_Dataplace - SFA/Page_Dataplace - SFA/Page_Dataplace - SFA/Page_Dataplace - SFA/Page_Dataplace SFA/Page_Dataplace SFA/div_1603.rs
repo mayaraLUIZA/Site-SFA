@@ -6,12 +6,12 @@
    <elementGuidId>1bf6417e-7801-4ba1-8b56-e9c145da8529</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mr-2</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='cardclick']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mr-2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

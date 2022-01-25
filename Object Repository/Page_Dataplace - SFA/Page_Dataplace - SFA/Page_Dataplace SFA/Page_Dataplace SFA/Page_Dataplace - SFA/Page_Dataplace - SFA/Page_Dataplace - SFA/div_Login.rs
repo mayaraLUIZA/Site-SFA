@@ -79,4 +79,11 @@
       <type>Main</type>
       <value>//button/div</value>
    </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Login' or . = 'Login')]</value>
+   </webElementXpaths>
 </WebElementEntity>
