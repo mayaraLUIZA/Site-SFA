@@ -6,9 +6,15 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>5825264d-1bbb-4b04-81bb-0a7076197746</dataFileGUID>
-   <dataSourceUrl>C:\Users\Mayara\Downloads\tst.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\Administrator\Desktop\Livro3.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>false</value>
+      </entry>
+   </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Folha1</sheetName>

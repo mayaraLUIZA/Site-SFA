@@ -72,4 +72,11 @@
       <type>Main</type>
       <value>//div[2]/input</value>
    </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'senha' and @type = 'password']</value>
+   </webElementXpaths>
 </WebElementEntity>

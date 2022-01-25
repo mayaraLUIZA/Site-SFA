@@ -65,4 +65,11 @@
       <type>Main</type>
       <value>//div[2]/div[2]/button[2]/div/div[2]</value>
    </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Confirmar' or . = 'Confirmar')]</value>
+   </webElementXpaths>
 </WebElementEntity>

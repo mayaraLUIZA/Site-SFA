@@ -6,6 +6,7 @@
    <UUID>99bcb90b-cc6c-40fc-8699-62f585e48f25</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\Administrator\git\Site-SFA\Site-SFA.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -24,5 +25,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <timeStampInProperties>true</timeStampInProperties>
    <type>GENERIC</type>
 </Project>

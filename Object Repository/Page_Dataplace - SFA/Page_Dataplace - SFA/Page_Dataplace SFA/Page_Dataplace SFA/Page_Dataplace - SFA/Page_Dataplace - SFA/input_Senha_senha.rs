@@ -6,12 +6,12 @@
    <elementGuidId>b67299e1-d7c1-4a26-a80f-a38069774f89</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='senha']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#senha</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='senha']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -71,5 +71,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'senha' and @type = 'password']</value>
    </webElementXpaths>
 </WebElementEntity>

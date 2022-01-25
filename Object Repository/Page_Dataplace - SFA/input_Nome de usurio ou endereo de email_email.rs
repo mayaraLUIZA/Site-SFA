@@ -72,4 +72,11 @@
       <type>Main</type>
       <value>//input</value>
    </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'email' and @type = 'text']</value>
+   </webElementXpaths>
 </WebElementEntity>

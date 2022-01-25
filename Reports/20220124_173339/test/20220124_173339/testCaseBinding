@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 1","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido","bindedValues":{"desc1":"\u002720,00\u0027","preco":"\u002780,00\u0027","valorProduto":"\u0027 100,00\u0027","Valortotal":"\u0027R$  80,00\u0027","quantidade":"\u00271,00\u0027"}}
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 2","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido","bindedValues":{"quantidade":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 3","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido","bindedValues":{"quantidade":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 4","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido","bindedValues":{"quantidade":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 5","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido","bindedValues":{"preco":"\u0027\u0027","quantidade":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 6","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido","bindedValues":{"quantidade":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 7","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido","bindedValues":{"quantidade":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 8","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido","bindedValues":{"quantidade":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 9","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido","bindedValues":{"desc1":"\u0027\u0027","quantidade":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 10","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido","bindedValues":{"quantidade":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 11","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido","bindedValues":{"quantidade":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 12","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido"}
+{"testCaseName":"Test Cases/TC21- Adicionar descontos ao pedido - Iteration 13","testCaseId":"Test Cases/TC21- Adicionar descontos ao pedido"}

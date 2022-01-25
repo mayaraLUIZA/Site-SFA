@@ -5,4 +5,39 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>91ad5b96-0d06-4e5c-8807-ca5db26b84ba</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>683efad2-3e8a-4cfe-947f-14f38aa71561</id>
+      <masked>false</masked>
+      <name>valorProduto</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>da90e8d8-7568-4ced-a1e3-79182ec29f1c</id>
+      <masked>false</masked>
+      <name>quantidade</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>48f88b2a-e04b-4aa6-9cd7-cfc2a7207271</id>
+      <masked>false</masked>
+      <name>desc1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fba4152a-c373-40de-837a-cfd8aad158a8</id>
+      <masked>false</masked>
+      <name>preco</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>73643203-95e3-4f50-b4a1-11f1c6ddb755</id>
+      <masked>false</masked>
+      <name>Valortotal</name>
+   </variable>
 </TestCaseEntity>

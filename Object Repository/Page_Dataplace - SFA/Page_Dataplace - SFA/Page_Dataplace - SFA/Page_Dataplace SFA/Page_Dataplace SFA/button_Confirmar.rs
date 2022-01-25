@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-block.btn-confirm</value>
+         <value>button.btn.default-btn.btn-sm.ml-1</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='button']</value>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-block btn-confirm</value>
+      <value>btn default-btn btn-sm ml-1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,10 +49,45 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;modal-open&quot;]/ngb-modal-window[@class=&quot;d-block fade modal show&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/app-confirm-dialog[1]/div[@class=&quot;modal-body text-center&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-6&quot;]/button[@class=&quot;btn btn-block btn-confirm&quot;]</value>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/ngb-modal-window[@class=&quot;d-block fade modal show&quot;]/div[@class=&quot;modal-dialog modal-xl&quot;]/div[@class=&quot;modal-content&quot;]/app-pedido-item-edit[1]/div[@class=&quot;modal-body ng-star-inserted&quot;]/div[@class=&quot;form-group&quot;]/button[@class=&quot;btn default-btn btn-sm ml-1&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[2]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informações adicionais'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Confirmar' or . = 'Confirmar')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

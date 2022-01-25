@@ -93,4 +93,11 @@
       <type>Main</type>
       <value>//button</value>
    </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'Login' and @type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
+   </webElementXpaths>
 </WebElementEntity>
