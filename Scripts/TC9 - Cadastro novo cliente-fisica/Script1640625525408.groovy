@@ -29,32 +29,32 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Pa
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Clientes'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Clientes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Cadastrar cliente'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Cadastrar cliente'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/select_Fsica Jurdica'), 
+WebUI.selectOptionByValue(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/select_Fsica Jurdica'), 
     '2', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_CPF_inscricaoFederal'), '767.936.319-69')
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_CPF_inscricaoFederal'), '767.936.319-69')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Razo Social_razaoSocial (1)'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_Razo Social_razaoSocial (1)'), 
     'Vitor Kevin Jesus')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Nome fantasia_fantasia'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_Nome fantasia_fantasia'), 
     'Vitor Kevin Jesus')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_RG_inscricaoEstadual'), '16.800.728-9')
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_RG_inscricaoEstadual'), '16.800.728-9')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_CEP_endereco_cep'), '48.981-632')
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_CEP_endereco_cep'), '48.981-632')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_SFA - Fora de Vendas  DP INFORMTICA LTD_a6a7a3'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_SFA - Fora de Vendas  DP INFORMTICA LTD_a6a7a3'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_CEP_endereco_cep'), '17.400-052')
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_CEP_endereco_cep'), '17.400-052')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Buscar endereo'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Buscar endereo'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Salvar'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Salvar'))
 
 WebUI.closeBrowser()
 

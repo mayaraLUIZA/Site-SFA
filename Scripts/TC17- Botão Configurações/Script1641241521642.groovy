@@ -31,33 +31,33 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Pa
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/button_Login (7)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Configuraes'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Configuraes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Status de pedido_termData'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_Status de pedido_termData'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/i_Status de pedido_fa fa-search'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/i_Status de pedido_fa fa-search'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/a_Vendas'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/a_Vendas'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Transportadora'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Transportadora'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/a_O PROPRIO'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/a_O PROPRIO'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Condio de pagamento'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Condio de pagamento'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Status de pedido_termData'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_Status de pedido_termData'), 
     'Dias')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/button_Status de pedido_btn btn-secondary btn-sm'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/button_Status de pedido_btn btn-secondary btn-sm'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/a_15DIAS'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/a_15DIAS'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Status de pedido'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Status de pedido'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Status de pedido_termData'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_Status de pedido_termData'), 
     'ERP')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/button_Status de pedido_btn btn-secondary btn-sm'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/button_Status de pedido_btn btn-secondary btn-sm'))
 
 WebUI.closeBrowser()
 

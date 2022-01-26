@@ -30,16 +30,16 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Pa
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/button_Login (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Pedidos_pr-3'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Pedidos_pr-3'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/button_Cadastrar cliente_btn btn-secondary btn-sm'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/button_Cadastrar cliente_btn btn-secondary btn-sm'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Editar'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Editar'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Razo Social_razaoSocial'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_Razo Social_razaoSocial'), 
     'Calebe e Jaqueline Informática')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/i_Salvar_fa fa-check my-float'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/i_Salvar_fa fa-check my-float'))
 
 
 

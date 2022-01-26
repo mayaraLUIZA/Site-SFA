@@ -29,54 +29,54 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Pa
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login (7)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Cadastrar pedido (2)'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Cadastrar pedido (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Dados do pedido (obrigatrio) (1)'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Dados do pedido (obrigatrio) (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Cliente_clienteId (4)'), 'Premiu')
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_Cliente_clienteId (4)'), 'Premiu')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/span_Premiu'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/span_Premiu'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Tipo de pedidoInforme o tipo do pedido'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Tipo de pedidoInforme o tipo do pedido'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Tipo de pedido_tipoPedido (3)'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_Tipo de pedido_tipoPedido (3)'), 
     'Ve')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/ngb-highlight_Vendas_ST (2)'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/ngb-highlight_Vendas_ST (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Tipo de pedido_tipoPedido (3)'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_Tipo de pedido_tipoPedido (3)'), 
     'Vendas_ST')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/a_Editar detalhes do pedido_bg-success floa_925a26 (2)'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/a_Editar detalhes do pedido_bg-success floa_925a26 (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto (2)'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_Produto_typeahead-produto (2)'), 
     '8029')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_COIFA CAIXA DIREAO a - 8029ST (1)'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_COIFA CAIXA DIREAO a - 8029ST (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto (2)'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_Produto_typeahead-produto (2)'), 
     '8029')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_Quantidade_quantidade (2)'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_Quantidade_quantidade (2)'), 
     '2')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Preo lquidoR'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Preo lquidoR'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/input_R_precoLiquido (1)'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/input_R_precoLiquido (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Confirmar (1)'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Confirmar (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_R31,80'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_R31,80'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/td_R31,80 (1)'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/td_R31,80 (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/td_R30,00'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/td_R30,00'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/td_R31,80 (1)'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/td_R31,80 (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_R31,80'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_R31,80'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/div_Gerar Pedido (2)'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/div_Gerar Pedido (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/button_Confirmar (2)'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/button_Confirmar (2)'))
 

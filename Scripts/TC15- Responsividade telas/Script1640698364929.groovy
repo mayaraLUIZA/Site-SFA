@@ -21,37 +21,37 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.1.21:7802/pt/pedidos')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 
     'mayara.moraes@dataplace.com.br')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/input_Senha_senha'), 
+WebUI.setEncryptedText(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/input_Senha_senha'), 
     'jBu/h84nUum0DzfFUdyvAQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/button_Login'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace - SFA/button_Login'))
 
 WebUI.setViewPortSize(347, 703)
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Configuraes'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Configuraes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/nav_Mayara Normandia                       _d83259'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/nav_Mayara Normandia                       _d83259'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/button_Minha conta_menu-toggle'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/button_Minha conta_menu-toggle'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Indicadores'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Indicadores'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Clientes'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Clientes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/button_Minha conta_menu-toggle'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/button_Minha conta_menu-toggle'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/i_Minha conta_fas fa-bars'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/i_Minha conta_fas fa-bars'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_TAX'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_TAX'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/button_Minha conta_menu-toggle'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/button_Minha conta_menu-toggle'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/button_Minha conta_menu-toggle'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/button_Minha conta_menu-toggle'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Produtos'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Produtos'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/button_Minha conta_menu-toggle'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/Page_Dataplace SFA/button_Minha conta_menu-toggle'))
 

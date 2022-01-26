@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Preo Tab_fas fa-edit fa-xs text-principal</name>
+   <tag></tag>
+   <elementGuidId>bf7126c5-71c0-4f6c-89f7-dddd9cd81357</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-detail/div[4]/div[2]/table/thead/tr/th[6]/div/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-edit.fa-xs.text-principal</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-edit fa-xs text-principal</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-content-wrapper&quot;)/div[@class=&quot;container-fluid pt-2&quot;]/app-pedido-main-tabs[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;p-2&quot;]/app-pedidos-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-0&quot;]/div[@class=&quot;col-sm-12 table-responsive d-flex flex-grow-1&quot;]/table[@class=&quot;table table-striped table-body table-skeleton&quot;]/thead[1]/tr[@class=&quot;header-table-row&quot;]/th[@class=&quot;link-custom m-0 ng-star-inserted&quot;]/div[@class=&quot;flex-row d-flex&quot;]/div[1]/i[@class=&quot;fas fa-edit fa-xs text-principal&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-detail/div[4]/div[2]/table/thead/tr/th[6]/div/div/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[6]/div/div/i</value>
+   </webElementXpaths>
+</WebElementEntity>

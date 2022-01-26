@@ -23,36 +23,36 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 
     'mayara.moraes@dataplace.com.br')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace - SFA/input_Senha_senha'), 
+WebUI.setEncryptedText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace - SFA/input_Senha_senha'), 
     'jBu/h84nUum0DzfFUdyvAQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace - SFA/div_Login'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace - SFA/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Clientes'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/div_Clientes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/button_Cadastrar cliente_btn btn-secondary btn-sm'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/button_Cadastrar cliente_btn btn-secondary btn-sm'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/a_Calebe e Jaqueline'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/a_Calebe e Jaqueline'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_Editar'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/div_Editar'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/select_Fsica Jurdica'), 
+WebUI.selectOptionByValue(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/select_Fsica Jurdica'), 
     '2', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/div_SFA - Fora de Vendas  DP INFORMTICA LTD_a6a7a3'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/div_SFA - Fora de Vendas  DP INFORMTICA LTD_a6a7a3'))
 
 sleep(3000)
 
-if(WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/Page_Dataplace SFA/input_CPF_inscricaoFederal'), 
+if(WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/input_CPF_inscricaoFederal'), 
     cpf) !=true) {
-    WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/i_Salvar_fa fa-check my-float'))
+    WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/i_Salvar_fa fa-check my-float'))
 	System.out.println("cpf inválido")
 }
 else {
-	WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace SFA/i_Salvar_fa fa-check my-float'))
+	WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA (1)/i_Salvar_fa fa-check my-float'))
  System.out.println("cpf válido")
 }
 

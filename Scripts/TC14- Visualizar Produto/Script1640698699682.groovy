@@ -21,20 +21,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 
     'mayara.moraes@dataplace.com.br')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'), 
+WebUI.setEncryptedText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/input_Senha_senha'), 
     'jBu/h84nUum0DzfFUdyvAQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/div_Produtos'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/div_Produtos'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/button_Produtos e preos_btn btn-secondary btn-sm'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/button_Produtos e preos_btn btn-secondary btn-sm'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/a_W3179'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/a_W3179'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace SFA/i_Produtos e preos_fas fa-sync-alt'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/i_Produtos e preos_fas fa-sync-alt'))
 
 WebUI.closeBrowser()

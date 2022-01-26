@@ -27,31 +27,31 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/in
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_Dataplace - SFA/input_Senha_senha'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Cadastrar pedido'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/div_Cadastrar pedido'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Cliente_clienteId'), 'Premium')
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/input_Cliente_clienteId'), 'Premium')
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/span_Cliente'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Tipo de pedido_tipoPedido'), 'Vendas_ST')
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/input_Tipo de pedido_tipoPedido'), 'Vendas_ST')
 
-WebUI.click(findTestObject('Page_Dataplace SFA/button_Vendas'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/button_Vendas'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/i_Editar detalhes do pedido_fa fa-check my-float'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/i_Editar detalhes do pedido_fa fa-check my-float'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Produto'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/div_Produto'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Produto_typeahead-produto'), '8029ST')
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto'), '8029ST')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/ngb-highlight_COIFA CAIXA DIREO'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/ngb-highlight_COIFA CAIXA DIREO'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Produto_typeahead-produto'), '8029ST')
+WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto'), '8029ST')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Confirmar'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/div_Confirmar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Gerar Pedido'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/div_Gerar Pedido'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_Confirmar'))
+WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace SFA/button_Confirmar'))
 
 WebUI.closeBrowser()
 

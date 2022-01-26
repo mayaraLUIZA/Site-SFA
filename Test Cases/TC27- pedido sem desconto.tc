@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC27- pedido sem desconto</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b59efb3-8746-4d12-8cc2-ccbb623ac025</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>19202f3b-9e2c-480b-8856-597f3a344a19</id>
+      <masked>false</masked>
+      <name>quantidade</name>
+   </variable>
+   <variable>
+      <defaultValue>'10,00'</defaultValue>
+      <description></description>
+      <id>9fd5e996-c0bb-43a4-b7d8-9414fc4a291c</id>
+      <masked>false</masked>
+      <name>desconto1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fd0d33c4-783d-4f14-b966-dea1d8d9aa41</id>
+      <masked>false</masked>
+      <name>preco</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1814d6e9-b42c-4271-a88b-d51796604c54</id>
+      <masked>false</masked>
+      <name>total</name>
+   </variable>
+</TestCaseEntity>

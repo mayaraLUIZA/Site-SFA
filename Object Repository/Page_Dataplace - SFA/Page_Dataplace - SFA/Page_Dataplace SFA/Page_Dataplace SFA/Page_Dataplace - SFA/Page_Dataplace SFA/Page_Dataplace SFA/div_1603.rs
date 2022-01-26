@@ -6,12 +6,12 @@
    <elementGuidId>ff99a9cf-87e8-4a53-9daf-fd0f47a704d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mr-2</value>
+         <key>XPATH</key>
+         <value>(//div[@id='cardclick']/div/div)[5]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='cardclick']/div/div</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,35 +49,35 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cardclick']/div/div</value>
+      <value>(//div[@id='cardclick']/div/div)[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pesquisa avançada'])[1]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='R$ 63,31'])[1]/following::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cadastrar pedido'])[1]/following::div[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Premium RS - Premium RS'])[1]/following::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='emitido por'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='emitido por'])[2]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mayara Normandia'])[2]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mayara Normandia'])[3]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//app-pedidos-list/div[3]/div/div/div</value>
+      <value>//div[4]/div/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

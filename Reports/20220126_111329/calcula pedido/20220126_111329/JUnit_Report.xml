@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="calcula pedido" time="37.753" tests="2" failures="0" errors="0">
+   <testsuite name="calcula pedido" tests="2" failures="0" errors="0" time="37.753" skipped="0" timestamp="2022-01-26 11:13:32" hostname="Administrator - 172.16.2.74" id="Test Suites/calcula pedido">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\Site-SFA\\Reports\\20220126_111329\\calcula pedido\\20220126_111329"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\Site-SFA\\Reports\\20220126_111329\\calcula pedido\\20220126_111329\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 172.16.2.74"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.16.2.74"/>
+         <property name="sessionId" value="b9cbb26df8a92797e6faba973eaef10e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="18.787" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2022-01-26 11:13:32 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2022-01-26 11:13:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-26 11:13:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-26 11:13:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-26 11:13:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-26 11:13:35 - [TEST_STEP][PASSED] - navigateToUrl("http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"): Navigate to 'http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos' successfully
+
+2022-01-26 11:13:36 - [MESSAGE][PASSED] - Navigate to 'http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos' successfully
+
+2022-01-26 11:13:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email"), "mayara.moraes@dataplaca.com.br"): Text 'mayara.moraes@dataplaca.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-01-26 11:13:37 - [MESSAGE][PASSED] - Text 'mayara.moraes@dataplaca.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-01-26 11:13:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email' is clicked on
+
+2022-01-26 11:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email' is clicked on
+
+2022-01-26 11:13:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email"), "mayara.moraes@dataplace.com.br"): Text 'mayara.moraes@dataplace.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-01-26 11:13:38 - [MESSAGE][PASSED] - Text 'mayara.moraes@dataplace.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-01-26 11:13:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha"), "i+K1X3doZYBu6F0i+9QHbg=="): Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-01-26 11:13:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-01-26 11:13:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/button_Login")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/button_Login' is clicked on
+
+2022-01-26 11:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/button_Login' is clicked on
+
+2022-01-26 11:13:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_LoginNome de usurio ou endereo de email_d83c56")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_LoginNome de usurio ou endereo de email_d83c56' is clicked on
+
+2022-01-26 11:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_LoginNome de usurio ou endereo de email_d83c56' is clicked on
+
+2022-01-26 11:13:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha"), "jBu/h84nUum0DzfFUdyvAQ=="): Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-01-26 11:13:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-01-26 11:13:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login' is clicked on
+
+2022-01-26 11:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login' is clicked on
+
+2022-01-26 11:13:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_1603")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_1603' is clicked on
+
+2022-01-26 11:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_1603' is clicked on
+
+2022-01-26 11:13:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto"), " "): Text ' ' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto'
+
+2022-01-26 11:13:43 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto'
+
+2022-01-26 11:13:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/button_BOTA HOMOCINETICA CORCEL - 00100")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/button_BOTA HOMOCINETICA CORCEL - 00100' is clicked on
+
+2022-01-26 11:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/button_BOTA HOMOCINETICA CORCEL - 00100' is clicked on
+
+2022-01-26 11:13:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto"), " "): Text ' ' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto'
+
+2022-01-26 11:13:45 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto'
+
+2022-01-26 11:13:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Quantidade_quantidade"), quantidade): Text '1' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Quantidade_quantidade'
+
+2022-01-26 11:13:46 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Quantidade_quantidade'
+
+2022-01-26 11:13:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_R_precoLiquido"), preco): Text '13,00' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_R_precoLiquido'
+
+2022-01-26 11:13:47 - [MESSAGE][PASSED] - Text '13,00' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_R_precoLiquido'
+
+2022-01-26 11:13:47 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_R125,00"), total) == true): null
+
+2022-01-26 11:13:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_R125,00' are matched.
+
+2022-01-26 11:13:48 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2022-01-26 11:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_Confirmar")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_Confirmar' is clicked on
+
+2022-01-26 11:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_Confirmar' is clicked on
+
+2022-01-26 11:13:51 - [TEST_STEP][PASSED] - out.print("total correto"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case" time="18.393" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2022-01-26 11:13:51 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2022-01-26 11:13:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-26 11:13:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-26 11:13:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-26 11:13:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-26 11:13:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-26 11:13:53 - [TEST_STEP][PASSED] - navigateToUrl("http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"): Navigate to 'http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos' successfully
+
+2022-01-26 11:13:55 - [MESSAGE][PASSED] - Navigate to 'http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos' successfully
+
+2022-01-26 11:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email"), "mayara.moraes@dataplaca.com.br"): Text 'mayara.moraes@dataplaca.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-01-26 11:13:56 - [MESSAGE][PASSED] - Text 'mayara.moraes@dataplaca.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-01-26 11:13:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email' is clicked on
+
+2022-01-26 11:13:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email' is clicked on
+
+2022-01-26 11:13:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email"), "mayara.moraes@dataplace.com.br"): Text 'mayara.moraes@dataplace.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-01-26 11:13:57 - [MESSAGE][PASSED] - Text 'mayara.moraes@dataplace.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-01-26 11:13:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha"), "i+K1X3doZYBu6F0i+9QHbg=="): Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-01-26 11:13:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-01-26 11:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/button_Login")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/button_Login' is clicked on
+
+2022-01-26 11:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/button_Login' is clicked on
+
+2022-01-26 11:13:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_LoginNome de usurio ou endereo de email_d83c56")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_LoginNome de usurio ou endereo de email_d83c56' is clicked on
+
+2022-01-26 11:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_LoginNome de usurio ou endereo de email_d83c56' is clicked on
+
+2022-01-26 11:13:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha"), "jBu/h84nUum0DzfFUdyvAQ=="): Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-01-26 11:13:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-01-26 11:13:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login' is clicked on
+
+2022-01-26 11:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login' is clicked on
+
+2022-01-26 11:13:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_1603")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_1603' is clicked on
+
+2022-01-26 11:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_1603' is clicked on
+
+2022-01-26 11:14:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto"), " "): Text ' ' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto'
+
+2022-01-26 11:14:01 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto'
+
+2022-01-26 11:14:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/button_BOTA HOMOCINETICA CORCEL - 00100")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/button_BOTA HOMOCINETICA CORCEL - 00100' is clicked on
+
+2022-01-26 11:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/button_BOTA HOMOCINETICA CORCEL - 00100' is clicked on
+
+2022-01-26 11:14:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto"), " "): Text ' ' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto'
+
+2022-01-26 11:14:04 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto'
+
+2022-01-26 11:14:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Quantidade_quantidade"), quantidade): Text '2' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Quantidade_quantidade'
+
+2022-01-26 11:14:05 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Quantidade_quantidade'
+
+2022-01-26 11:14:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_R_precoLiquido"), preco): Text '20,00' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_R_precoLiquido'
+
+2022-01-26 11:14:06 - [MESSAGE][PASSED] - Text '20,00' is set on object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_R_precoLiquido'
+
+2022-01-26 11:14:06 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_R125,00"), total) == true): null
+
+2022-01-26 11:14:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_R125,00' are matched.
+
+2022-01-26 11:14:06 - [TEST_STEP][PASSED] - sleep(3000): null
+
+2022-01-26 11:14:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_Confirmar")): Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_Confirmar' is clicked on
+
+2022-01-26 11:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_Confirmar' is clicked on
+
+2022-01-26 11:14:10 - [TEST_STEP][PASSED] - out.print("total correto"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-26 11:13:32 - [TEST_SUITE][PASSED] - calcula pedido: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
