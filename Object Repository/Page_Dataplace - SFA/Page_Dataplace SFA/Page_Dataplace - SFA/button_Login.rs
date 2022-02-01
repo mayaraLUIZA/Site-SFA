@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Login</name>
    <tag></tag>
-   <elementGuidId>a305ddb9-6288-4688-ad11-a67b1c35e25a</elementGuidId>
+   <elementGuidId>f0c8a009-42c5-4d8e-a3e2-1bba2cb7e6ac</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#Login</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='Login']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Login</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -92,5 +92,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'Login' and @type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
    </webElementXpaths>
 </WebElementEntity>

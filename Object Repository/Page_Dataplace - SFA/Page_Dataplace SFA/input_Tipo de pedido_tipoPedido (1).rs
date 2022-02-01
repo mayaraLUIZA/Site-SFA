@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Tipo de pedido_tipoPedido (1)</name>
    <tag></tag>
-   <elementGuidId>3497edb6-1716-4a26-979f-df7638e5bc49</elementGuidId>
+   <elementGuidId>99e3e42b-1007-4eaa-a332-95b2413e0fd1</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#tipoPedido</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='tipoPedido']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#tipoPedido</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

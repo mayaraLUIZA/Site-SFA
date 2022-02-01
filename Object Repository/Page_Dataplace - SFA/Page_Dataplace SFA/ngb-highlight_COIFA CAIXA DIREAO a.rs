@@ -3,15 +3,15 @@
    <description></description>
    <name>ngb-highlight_COIFA CAIXA DIREAO a</name>
    <tag></tag>
-   <elementGuidId>e79de5ec-7053-4f8d-b45f-693bb48a6106</elementGuidId>
+   <elementGuidId>74efad4a-034d-4773-9774-2fef4b0f88ce</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#ngb-typeahead-5-1 > div.m-1.ng-star-inserted > div.row.p-2 > div.mr-2 > ngb-highlight</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='ngb-typeahead-5-1']/div/div/div/ngb-highlight</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ngb-typeahead-5-1 > div.m-1.ng-star-inserted > div.row.p-2 > div.mr-2 > ngb-highlight</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

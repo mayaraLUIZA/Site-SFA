@@ -3,15 +3,15 @@
    <description></description>
    <name>input_R_precoLiquido</name>
    <tag></tag>
-   <elementGuidId>b45acec4-8192-4408-bd6b-4767aa458852</elementGuidId>
+   <elementGuidId>2a15ea63-918c-4f4e-aab4-b60376b599e6</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#precoLiquido</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='precoLiquido']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#precoLiquido</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-pristine ng-valid</value>
+      <value>form-control ng-valid ng-dirty ng-touched</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,5 +57,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'precoLiquido']</value>
    </webElementXpaths>
 </WebElementEntity>

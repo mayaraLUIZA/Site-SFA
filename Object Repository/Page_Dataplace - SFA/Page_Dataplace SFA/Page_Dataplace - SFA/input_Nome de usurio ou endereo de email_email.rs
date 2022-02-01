@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Nome de usurio ou endereo de email_email</name>
    <tag></tag>
-   <elementGuidId>7af6cad4-5c0f-49ff-bdec-59c7c46e2fcc</elementGuidId>
+   <elementGuidId>1f56c0de-dd13-4105-9d20-79e8303a37b7</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#email</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='email']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#email</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -71,5 +71,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'email' and @type = 'text']</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Cliente_clienteId (4)</name>
    <tag></tag>
-   <elementGuidId>cc6969b8-8810-4152-9334-b8b161dfdc49</elementGuidId>
+   <elementGuidId>0420cbca-a38e-46eb-a4e6-c1fe25205f2f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

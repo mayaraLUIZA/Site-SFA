@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Produto_typeahead-produto (2)</name>
    <tag></tag>
-   <elementGuidId>173faa28-da4e-46f7-9df1-0943a713dfdc</elementGuidId>
+   <elementGuidId>cb319f43-3d50-4732-a33c-f2360c6104d6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>autocapitalize</name>
       <type>Main</type>
-      <value>none</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

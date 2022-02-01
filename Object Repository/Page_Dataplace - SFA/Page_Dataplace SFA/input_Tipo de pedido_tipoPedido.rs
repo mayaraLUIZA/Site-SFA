@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Tipo de pedido_tipoPedido</name>
    <tag></tag>
-   <elementGuidId>efe16525-6a7e-4da4-a66a-5ef7aec39d8f</elementGuidId>
+   <elementGuidId>1d2ea395-78ca-4ce4-89f8-cc6364a8ce66</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#tipoPedido</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='tipoPedido']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#tipoPedido</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -68,9 +68,16 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>tipoPedido</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-pristine ng-valid</value>
+      <value>form-control ng-touched ng-pristine ng-invalid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -119,13 +126,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-list/div[2]/div/div/div/div/input</value>
+      <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-detail/div[2]/div[3]/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/input</value>
+      <value>//div[3]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

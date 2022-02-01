@@ -3,15 +3,15 @@
    <description></description>
    <name>i_Editar detalhes do pedido_fa fa-check my-float (1)</name>
    <tag></tag>
-   <elementGuidId>e94e92be-bc0d-409a-973e-75cb0a4bfcdb</elementGuidId>
+   <elementGuidId>3ca66933-8325-436d-ac0f-2d1aa1991e52</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>i.fa.fa-check.my-float</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-detail/a[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-check.my-float</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

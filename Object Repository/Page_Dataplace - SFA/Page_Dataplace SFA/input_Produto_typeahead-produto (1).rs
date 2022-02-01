@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Produto_typeahead-produto (1)</name>
    <tag></tag>
-   <elementGuidId>b66af9ec-0e09-4400-90be-cd21e5f854cd</elementGuidId>
+   <elementGuidId>d66d7b2e-0a99-435a-a060-22ca50470ee1</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#typeahead-produto</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='typeahead-produto']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#typeahead-produto</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

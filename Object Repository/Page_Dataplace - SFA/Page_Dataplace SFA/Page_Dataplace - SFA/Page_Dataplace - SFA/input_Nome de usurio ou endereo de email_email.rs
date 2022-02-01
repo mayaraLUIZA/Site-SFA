@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Nome de usurio ou endereo de email_email</name>
    <tag></tag>
-   <elementGuidId>2eb070fd-fc56-437b-bb58-048ec49eddc8</elementGuidId>
+   <elementGuidId>5961f6f3-9ac0-4873-9b44-cab8bb85b8c4</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#email</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='email']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#email</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

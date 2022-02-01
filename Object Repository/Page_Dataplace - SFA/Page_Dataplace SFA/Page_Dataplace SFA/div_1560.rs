@@ -3,15 +3,14 @@
    <description></description>
    <name>div_1560</name>
    <tag></tag>
-   <elementGuidId>f9fbe327-1166-48ef-a70b-3f5045068f95</elementGuidId>
+   <elementGuidId>7eff2ccc-9217-40f1-a039-a85799edc05c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[@id='cardclick']/div/div)[9]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@id='cardclick']/div/div)[5]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +34,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> # 1560 </value>
+      <value> # 1184 </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +48,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//div[@id='cardclick']/div/div)[5]</value>
+      <value>(//div[@id='cardclick']/div/div)[9]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,27 +69,27 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='emitido por'])[2]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='emitido por'])[3]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mayara Normandia'])[3]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Joao F Frabetti'])[4]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='# 1560']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='# 1184']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div/div</value>
+      <value>//div[5]/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

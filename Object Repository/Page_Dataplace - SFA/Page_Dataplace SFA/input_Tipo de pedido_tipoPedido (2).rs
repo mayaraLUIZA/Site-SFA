@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Tipo de pedido_tipoPedido (2)</name>
    <tag></tag>
-   <elementGuidId>640bc23d-d925-4ac2-84c4-21dcc1886b0c</elementGuidId>
+   <elementGuidId>893d4658-913f-4569-8b01-76c98ff29a44</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#tipoPedido</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='tipoPedido']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#tipoPedido</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>autocapitalize</name>
       <type>Main</type>
-      <value>none</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

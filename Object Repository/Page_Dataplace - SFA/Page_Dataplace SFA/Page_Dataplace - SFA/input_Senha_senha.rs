@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Senha_senha</name>
    <tag></tag>
-   <elementGuidId>00fbb50c-e630-405d-b96e-55dbe8d6525a</elementGuidId>
+   <elementGuidId>fe22b6b3-39d3-4871-8c92-da90f23dc8ca</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#senha</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='senha']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#senha</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -71,5 +71,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'senha' and @type = 'password']</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -12,21 +12,21 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>7189c3ad-1007-470a-9974-7fdf8808394b</testSuiteGuid>
    <testCaseLink>
-      <guid>a49efbda-481b-4a68-8673-85e17e4df58e</guid>
+      <guid>f55167a8-7817-423a-9b85-6cb28a454cca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC26- Validacao cpf cliente</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>73898ec9-ad13-4462-b367-191404a87deb</id>
+         <id>709051b4-f381-483c-a589-da4cd40a4814</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/cpf</testDataId>
+         <testDataId>Data Files/validacao cpf cliente</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>73898ec9-ad13-4462-b367-191404a87deb</testDataLinkId>
+         <testDataLinkId>709051b4-f381-483c-a589-da4cd40a4814</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>cpf</value>
          <variableId>88f421ed-e184-432b-b963-a6bb42a069cb</variableId>

@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Quantidade_quantidade</name>
    <tag></tag>
-   <elementGuidId>14906aad-db9b-48e6-98c7-7cf4575c3098</elementGuidId>
+   <elementGuidId>e40a5fd2-1bdb-4883-9e71-3e419b695b62</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#quantidade</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='quantidade']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#quantidade</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

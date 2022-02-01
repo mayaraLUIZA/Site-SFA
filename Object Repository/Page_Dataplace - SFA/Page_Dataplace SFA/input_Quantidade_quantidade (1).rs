@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Quantidade_quantidade (1)</name>
    <tag></tag>
-   <elementGuidId>e2299275-7313-4083-84a0-ad75d01f19e4</elementGuidId>
+   <elementGuidId>6858ba24-6484-4469-ac56-5b64af5ceaa3</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#quantidade</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='quantidade']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#quantidade</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-valid ng-star-inserted ng-touched ng-dirty</value>
+      <value>form-control ng-untouched ng-valid ng-star-inserted ng-dirty</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

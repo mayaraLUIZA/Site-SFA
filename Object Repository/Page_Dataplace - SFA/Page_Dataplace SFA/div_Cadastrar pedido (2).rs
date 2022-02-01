@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Cadastrar pedido (2)</name>
    <tag></tag>
-   <elementGuidId>d5367c10-c214-4954-be02-d38eaafbf481</elementGuidId>
+   <elementGuidId>8694d7e5-029e-423d-a784-ffe5b2d12717</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +69,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='# 1600'])[1]/preceding::div[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='# 1179'])[1]/preceding::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+cpf,,,,2022-01-27 13:47:41,2022-01-27 13:47:41,"0,588s",ERROR
+,,,,,,,
+Test Cases/TC26- Validacao cpf cliente,,,,2022-01-27 13:47:41,2022-01-27 13:47:41,"0,059s",ERROR
+,,,,,,,
+Test Cases/TC26- Validacao cpf cliente,,,,2022-01-27 13:47:41,2022-01-27 13:47:41,"0,015s",ERROR
+,,,,,,,
+Test Cases/TC26- Validacao cpf cliente,,,,2022-01-27 13:47:41,2022-01-27 13:47:41,"0,026s",ERROR

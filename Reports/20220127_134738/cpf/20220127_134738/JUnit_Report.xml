@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="cpf" time="0.588" tests="3" failures="0" errors="3">
+   <testsuite name="cpf" tests="3" failures="0" errors="3" time="0.588" skipped="0" timestamp="2022-01-27 13:47:41" hostname="Administrator - 172.16.2.74" id="Test Suites/cpf">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\Site-SFA\\Reports\\20220127_134738\\cpf\\20220127_134738"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\Site-SFA\\Reports\\20220127_134738\\cpf\\20220127_134738\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 172.16.2.74"/>
+         <property name="hostAddress" value="172.16.2.74"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/TC26- Validacao cpf cliente" time="0.059" classname="Test Cases/TC26- Validacao cpf cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC26- Validacao cpf cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1643302061639.groovy: 53: unexpected token: g @ line 53, column 28.
+   	cpf = cpf.replace(/[^\d]+/g,'');
+                              ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-01-27 13:47:41 - [TEST_CASE][ERROR] - Test Cases/TC26- Validacao cpf cliente: Test Cases/TC26- Validacao cpf cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1643302061639.groovy: 53: unexpected token: g @ line 53, column 28.
+   	cpf = cpf.replace(/[^\d]+/g,'');
+                              ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-01-27 13:47:41 - [TEST_CASE][ERROR] - Test Cases/TC26- Validacao cpf cliente: Test Cases/TC26- Validacao cpf cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1643302061639.groovy: 53: unexpected token: g @ line 53, column 28.
+   	cpf = cpf.replace(/[^\d]+/g,'');
+                              ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC26- Validacao cpf cliente" time="0.015" classname="Test Cases/TC26- Validacao cpf cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC26- Validacao cpf cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1643302061732.groovy: 53: unexpected token: g @ line 53, column 28.
+   	cpf = cpf.replace(/[^\d]+/g,'');
+                              ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-01-27 13:47:41 - [TEST_CASE][ERROR] - Test Cases/TC26- Validacao cpf cliente: Test Cases/TC26- Validacao cpf cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1643302061732.groovy: 53: unexpected token: g @ line 53, column 28.
+   	cpf = cpf.replace(/[^\d]+/g,'');
+                              ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-01-27 13:47:41 - [TEST_CASE][ERROR] - Test Cases/TC26- Validacao cpf cliente: Test Cases/TC26- Validacao cpf cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1643302061732.groovy: 53: unexpected token: g @ line 53, column 28.
+   	cpf = cpf.replace(/[^\d]+/g,'');
+                              ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC26- Validacao cpf cliente" time="0.026" classname="Test Cases/TC26- Validacao cpf cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC26- Validacao cpf cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1643302061779.groovy: 53: unexpected token: g @ line 53, column 28.
+   	cpf = cpf.replace(/[^\d]+/g,'');
+                              ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-01-27 13:47:41 - [TEST_CASE][ERROR] - Test Cases/TC26- Validacao cpf cliente: Test Cases/TC26- Validacao cpf cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1643302061779.groovy: 53: unexpected token: g @ line 53, column 28.
+   	cpf = cpf.replace(/[^\d]+/g,'');
+                              ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-01-27 13:47:41 - [TEST_CASE][ERROR] - Test Cases/TC26- Validacao cpf cliente: Test Cases/TC26- Validacao cpf cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1643302061779.groovy: 53: unexpected token: g @ line 53, column 28.
+   	cpf = cpf.replace(/[^\d]+/g,'');
+                              ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-27 13:47:41 - [TEST_SUITE][ERROR] - cpf: Test Cases/TC26- Validacao cpf cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1643302061639.groovy: 53: unexpected token: g @ line 53, column 28.
+   	cpf = cpf.replace(/[^\d]+/g,'');
+                              ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2022-01-27 13:47:41 - [TEST_SUITE][ERROR] - cpf: Test Cases/TC26- Validacao cpf cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1643302061639.groovy: 53: unexpected token: g @ line 53, column 28.
+   	cpf = cpf.replace(/[^\d]+/g,'');
+                              ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

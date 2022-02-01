@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Confirmar (1)</name>
    <tag></tag>
-   <elementGuidId>2f3e497e-22f1-4ef7-9c71-70033859f7dd</elementGuidId>
+   <elementGuidId>ad68836c-a8d4-40d3-8af5-f09fc1710ffb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

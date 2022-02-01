@@ -3,7 +3,7 @@
    <description></description>
    <name>div_R31,80</name>
    <tag></tag>
-   <elementGuidId>aa6c93ac-4230-4502-a1e5-725f37aa9dbc</elementGuidId>
+   <elementGuidId>7786c3a2-c8e4-4590-bf5d-f56257ac5d61</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

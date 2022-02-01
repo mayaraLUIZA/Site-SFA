@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Senha_senha</name>
    <tag></tag>
-   <elementGuidId>def5ceb5-cce9-4c17-b1dd-096e22e1f8d2</elementGuidId>
+   <elementGuidId>abb6b9b1-2d0c-4dc8-b9ec-a8b5bee28c3d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#senha</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='senha']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#senha</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Tipo de pedido_tipoPedido (3)</name>
    <tag></tag>
-   <elementGuidId>b9353117-7dbe-4b12-86e2-278e8d837901</elementGuidId>
+   <elementGuidId>f5cd47f7-6002-4d6a-a8a6-57352c967783</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

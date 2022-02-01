@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Confirmar</name>
    <tag></tag>
-   <elementGuidId>af139736-b028-4c0c-be98-073960e364b3</elementGuidId>
+   <elementGuidId>341e1e58-89df-461e-84c6-4ad7dc8d99eb</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>button.btn.btn-block.btn-confirm</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@type='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,21 +56,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='button']</value>
+      <value>(//button[@type='button'])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Editar detalhes do pedido'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COIFA CAIXA DIREÇÃO'])[2]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informações Adicionais'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fotos'])[2]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

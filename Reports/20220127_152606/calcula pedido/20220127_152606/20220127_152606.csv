@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+calcula pedido,Chrome 97.0.4692.99,,,2022-01-27 15:26:09,2022-01-27 15:26:35,"26,487s",FAILED
+,,,,,,,
+Test Cases/TC27- pedido sem desconto,Chrome 97.0.4692.99,,,2022-01-27 15:26:09,2022-01-27 15:26:31,"21,877s",PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-27 15:26:10,2022-01-27 15:26:12,"2,369s",PASSED
+"navigateToUrl(""http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"")",Chrome 97.0.4692.99,,,2022-01-27 15:26:12,2022-01-27 15:26:13,"1,067s",PASSED
+"setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email""), ""mayara.moraes@dataplaca.com.br"")",Chrome 97.0.4692.99,,,2022-01-27 15:26:13,2022-01-27 15:26:14,"0,998s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email""))",Chrome 97.0.4692.99,,,2022-01-27 15:26:14,2022-01-27 15:26:15,"0,444s",PASSED
+"setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email""), ""mayara.moraes@dataplace.com.br"")",Chrome 97.0.4692.99,,,2022-01-27 15:26:15,2022-01-27 15:26:16,"0,757s",PASSED
+"setEncryptedText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha""), ""i+K1X3doZYBu6F0i+9QHbg=="")",Chrome 97.0.4692.99,,,2022-01-27 15:26:16,2022-01-27 15:26:16,"0,490s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/button_Login""))",Chrome 97.0.4692.99,,,2022-01-27 15:26:16,2022-01-27 15:26:17,"0,494s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_LoginNome de usurio ou endereo de email_d83c56""))",Chrome 97.0.4692.99,,,2022-01-27 15:26:17,2022-01-27 15:26:17,"0,695s",PASSED
+"setEncryptedText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Senha_senha""), ""jBu/h84nUum0DzfFUdyvAQ=="")",Chrome 97.0.4692.99,,,2022-01-27 15:26:17,2022-01-27 15:26:18,"0,422s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/div_Login""))",Chrome 97.0.4692.99,,,2022-01-27 15:26:18,2022-01-27 15:26:18,"0,486s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_1603""))",Chrome 97.0.4692.99,,,2022-01-27 15:26:18,2022-01-27 15:26:19,"1,022s",PASSED
+"setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto""), "" "")",Chrome 97.0.4692.99,,,2022-01-27 15:26:19,2022-01-27 15:26:23,"3,958s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/button_BOTA HOMOCINETICA CORCEL - 00100""))",Chrome 97.0.4692.99,,,2022-01-27 15:26:23,2022-01-27 15:26:25,"1,430s",PASSED
+"setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Produto_typeahead-produto""), "" "")",Chrome 97.0.4692.99,,,2022-01-27 15:26:25,2022-01-27 15:26:25,"0,812s",PASSED
+"setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_Quantidade_quantidade""), quantidade)",Chrome 97.0.4692.99,,,2022-01-27 15:26:25,2022-01-27 15:26:26,"1,002s",PASSED
+"setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/input_R_precoLiquido""), preco)",Chrome 97.0.4692.99,,,2022-01-27 15:26:26,2022-01-27 15:26:27,"0,889s",PASSED
+"if (verifyElementText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace SFA/div_R125,00""), total) == true)",Chrome 97.0.4692.99,,,2022-01-27 15:26:27,2022-01-27 15:26:31,"4,012s",PASSED
+,,,,,,,
+Test Cases/TC27- pedido sem desconto,Chrome 97.0.4692.99,,,2022-01-27 15:26:31,2022-01-27 15:26:35,"4,065s",FAILED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-27 15:26:31,2022-01-27 15:26:33,"1,905s",PASSED
+"navigateToUrl(""http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"")",Chrome 97.0.4692.99,,,2022-01-27 15:26:33,2022-01-27 15:26:34,"0,838s",PASSED
+"setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email""), ""mayara.moraes@dataplaca.com.br"")",Chrome 97.0.4692.99,,,2022-01-27 15:26:34,2022-01-27 15:26:35,"0,881s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email""))",Chrome 97.0.4692.99,,,2022-01-27 15:26:35,2022-01-27 15:26:35,"0,400s",FAILED

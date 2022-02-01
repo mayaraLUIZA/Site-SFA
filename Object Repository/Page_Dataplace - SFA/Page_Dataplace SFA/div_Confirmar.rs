@@ -3,15 +3,14 @@
    <description></description>
    <name>div_Confirmar</name>
    <tag></tag>
-   <elementGuidId>ca1aebff-b1e4-4d2d-a925-0d53fcb87f99</elementGuidId>
+   <elementGuidId>85c37ec7-7baa-4fdb-a533-82c04b4b0223</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[2]/following::div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

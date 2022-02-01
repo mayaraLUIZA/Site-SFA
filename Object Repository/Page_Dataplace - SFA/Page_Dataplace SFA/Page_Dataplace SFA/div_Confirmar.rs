@@ -3,15 +3,15 @@
    <description></description>
    <name>div_Confirmar</name>
    <tag></tag>
-   <elementGuidId>b59e3518-9789-4a2a-9fea-bb5e243dd45b</elementGuidId>
+   <elementGuidId>70611d57-3e9a-4081-8355-6551d42039d4</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[2]/following::div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -64,5 +64,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/button[2]/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Confirmar' or . = 'Confirmar')]</value>
    </webElementXpaths>
 </WebElementEntity>

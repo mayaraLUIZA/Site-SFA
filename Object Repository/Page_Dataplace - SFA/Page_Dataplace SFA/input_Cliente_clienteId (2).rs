@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Cliente_clienteId (2)</name>
    <tag></tag>
-   <elementGuidId>aedf6950-09ac-405a-b186-4a6a6cd6dbbd</elementGuidId>
+   <elementGuidId>18faa66f-c090-4197-a025-73e91a5686c5</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#clienteId</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='clienteId']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#clienteId</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>autocapitalize</name>
       <type>Main</type>
-      <value>none</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

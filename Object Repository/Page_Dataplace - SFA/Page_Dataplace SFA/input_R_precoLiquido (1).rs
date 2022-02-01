@@ -3,7 +3,7 @@
    <description></description>
    <name>input_R_precoLiquido (1)</name>
    <tag></tag>
-   <elementGuidId>b4533649-fa43-4ad4-ba1d-c90ec7505e9f</elementGuidId>
+   <elementGuidId>a55f03b3-e7e8-44cb-93a5-d6f0cfddd118</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

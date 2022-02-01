@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Cliente_clienteId (1)</name>
    <tag></tag>
-   <elementGuidId>7354c821-91e5-4446-ab2d-3bfeed5ff850</elementGuidId>
+   <elementGuidId>0e0f98a8-a2c1-4cc2-b817-2c1f9af285ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -126,7 +126,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-detail/div[3]/div/div/div/input</value>
+      <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-detail/div[2]/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

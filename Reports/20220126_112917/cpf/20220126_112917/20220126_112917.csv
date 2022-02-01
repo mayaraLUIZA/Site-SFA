@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+cpf,Chrome 97.0.4692.71,,,2022-01-26 11:29:20,2022-01-26 11:30:03,"42,171s",PASSED
+,,,,,,,
+Test Cases/TC26- Validacao cpf cliente,Chrome 97.0.4692.71,,,2022-01-26 11:29:21,2022-01-26 11:29:36,"15,039s",PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-26 11:29:21,2022-01-26 11:29:24,"2,450s",PASSED
+"navigateToUrl(""http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"")",Chrome 97.0.4692.71,,,2022-01-26 11:29:24,2022-01-26 11:29:25,"0,890s",PASSED
+"setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email""), ""mayara.moraes@dataplace.com.br"")",Chrome 97.0.4692.71,,,2022-01-26 11:29:25,2022-01-26 11:29:26,"0,901s",PASSED
+"setEncryptedText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace - SFA/input_Senha_senha""), ""jBu/h84nUum0DzfFUdyvAQ=="")",Chrome 97.0.4692.71,,,2022-01-26 11:29:26,2022-01-26 11:29:26,"0,516s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace - SFA/div_Login""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:26,2022-01-26 11:29:27,"0,528s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/div_Clientes""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:27,2022-01-26 11:29:28,"0,773s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/button_Cadastrar cliente_btn btn-secondary btn-sm""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:28,2022-01-26 11:29:28,"0,643s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/a_Calebe e Jaqueline""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:28,2022-01-26 11:29:29,"0,869s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/div_Editar""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:29,2022-01-26 11:29:30,"0,736s",PASSED
+"selectOptionByValue(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/select_Fsica Jurdica""), ""2"", true)",Chrome 97.0.4692.71,,,2022-01-26 11:29:30,2022-01-26 11:29:31,"1,252s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/div_SFA - Fora de Vendas  DP INFORMTICA LTD_a6a7a3""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:31,2022-01-26 11:29:32,"0,493s",PASSED
+sleep(3000),Chrome 97.0.4692.71,,,2022-01-26 11:29:32,2022-01-26 11:29:35,"3,008s",PASSED
+"if (setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/input_CPF_inscricaoFederal""), cpf) != true)",Chrome 97.0.4692.71,,,2022-01-26 11:29:35,2022-01-26 11:29:36,"1,404s",PASSED
+,,,,,,,
+Test Cases/TC26- Validacao cpf cliente,Chrome 97.0.4692.71,,,2022-01-26 11:29:36,2022-01-26 11:29:49,"13,302s",PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-26 11:29:36,2022-01-26 11:29:38,"1,940s",PASSED
+"navigateToUrl(""http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"")",Chrome 97.0.4692.71,,,2022-01-26 11:29:38,2022-01-26 11:29:39,"0,889s",PASSED
+"setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email""), ""mayara.moraes@dataplace.com.br"")",Chrome 97.0.4692.71,,,2022-01-26 11:29:39,2022-01-26 11:29:40,"0,909s",PASSED
+"setEncryptedText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace - SFA/input_Senha_senha""), ""jBu/h84nUum0DzfFUdyvAQ=="")",Chrome 97.0.4692.71,,,2022-01-26 11:29:40,2022-01-26 11:29:40,"0,469s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace - SFA/div_Login""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:40,2022-01-26 11:29:41,"0,526s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/div_Clientes""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:41,2022-01-26 11:29:41,"0,756s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/button_Cadastrar cliente_btn btn-secondary btn-sm""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:41,2022-01-26 11:29:42,"0,512s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/a_Calebe e Jaqueline""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:42,2022-01-26 11:29:43,"0,613s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/div_Editar""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:43,2022-01-26 11:29:43,"0,651s",PASSED
+"selectOptionByValue(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/select_Fsica Jurdica""), ""2"", true)",Chrome 97.0.4692.71,,,2022-01-26 11:29:43,2022-01-26 11:29:45,"1,273s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/div_SFA - Fora de Vendas  DP INFORMTICA LTD_a6a7a3""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:45,2022-01-26 11:29:45,"0,384s",PASSED
+sleep(3000),Chrome 97.0.4692.71,,,2022-01-26 11:29:45,2022-01-26 11:29:48,"3,013s",PASSED
+"if (setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/input_CPF_inscricaoFederal""), cpf) != true)",Chrome 97.0.4692.71,,,2022-01-26 11:29:48,2022-01-26 11:29:49,"1,348s",PASSED
+,,,,,,,
+Test Cases/TC26- Validacao cpf cliente,Chrome 97.0.4692.71,,,2022-01-26 11:29:49,2022-01-26 11:30:03,"13,360s",PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-26 11:29:49,2022-01-26 11:29:51,"1,963s",PASSED
+"navigateToUrl(""http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"")",Chrome 97.0.4692.71,,,2022-01-26 11:29:51,2022-01-26 11:29:52,"0,881s",PASSED
+"setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email""), ""mayara.moraes@dataplace.com.br"")",Chrome 97.0.4692.71,,,2022-01-26 11:29:52,2022-01-26 11:29:53,"0,914s",PASSED
+"setEncryptedText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace - SFA/input_Senha_senha""), ""jBu/h84nUum0DzfFUdyvAQ=="")",Chrome 97.0.4692.71,,,2022-01-26 11:29:53,2022-01-26 11:29:54,"0,445s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace - SFA/div_Login""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:54,2022-01-26 11:29:54,"0,492s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/div_Clientes""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:54,2022-01-26 11:29:55,"0,744s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/button_Cadastrar cliente_btn btn-secondary btn-sm""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:55,2022-01-26 11:29:55,"0,627s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/a_Calebe e Jaqueline""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:55,2022-01-26 11:29:56,"0,613s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/div_Editar""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:56,2022-01-26 11:29:57,"0,720s",PASSED
+"selectOptionByValue(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/select_Fsica Jurdica""), ""2"", true)",Chrome 97.0.4692.71,,,2022-01-26 11:29:57,2022-01-26 11:29:58,"1,233s",PASSED
+"click(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/div_SFA - Fora de Vendas  DP INFORMTICA LTD_a6a7a3""))",Chrome 97.0.4692.71,,,2022-01-26 11:29:58,2022-01-26 11:29:58,"0,384s",PASSED
+sleep(3000),Chrome 97.0.4692.71,,,2022-01-26 11:29:58,2022-01-26 11:30:01,"3,006s",PASSED
+"if (setText(findTestObject(""Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/Page_Dataplace SFA/input_CPF_inscricaoFederal""), cpf) != true)",Chrome 97.0.4692.71,,,2022-01-26 11:30:01,2022-01-26 11:30:03,"1,321s",PASSED

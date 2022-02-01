@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Cliente_clienteId (3)</name>
    <tag></tag>
-   <elementGuidId>eba972a0-8cf3-44f5-9532-3b4e09b36b2d</elementGuidId>
+   <elementGuidId>81fc79bb-e02c-4a29-b453-6658bf626478</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#clienteId</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='clienteId']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#clienteId</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

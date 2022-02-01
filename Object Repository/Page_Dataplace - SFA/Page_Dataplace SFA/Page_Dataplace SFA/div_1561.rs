@@ -3,15 +3,15 @@
    <description></description>
    <name>div_1561</name>
    <tag></tag>
-   <elementGuidId>e14dea3d-4212-4b8f-bb7f-604f34fa80bc</elementGuidId>
+   <elementGuidId>c90bbb8f-6086-4418-8788-e71a62a0f66f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div.mr-2</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='cardclick']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mr-2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

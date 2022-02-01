@@ -3,15 +3,15 @@
    <description></description>
    <name>input_R_precoLiquido</name>
    <tag></tag>
-   <elementGuidId>23caa750-3650-4bd3-a659-df29845ce978</elementGuidId>
+   <elementGuidId>b197db21-0569-46dc-9c3a-2c8920150402</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#precoLiquido</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='precoLiquido']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#precoLiquido</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

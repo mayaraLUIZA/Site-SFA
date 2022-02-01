@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+cpf,Chrome 97.0.4692.99,,,2022-01-28 11:46:04,2022-01-28 11:46:08,"3,545s",ERROR
+,,,,,,,
+Test Cases/TC26- Validacao cpf cliente,Chrome 97.0.4692.99,,,2022-01-28 11:46:05,2022-01-28 11:46:08,"3,131s",ERROR
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-28 11:46:05,2022-01-28 11:46:08,"2,514s",PASSED
+testecpf.testcpf.testecpf(),Chrome 97.0.4692.99,,,2022-01-28 11:46:08,2022-01-28 11:46:08,"0,019s",ERROR

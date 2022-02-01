@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Gerar Pedido (2)</name>
    <tag></tag>
-   <elementGuidId>da2ea7b2-8959-4da1-983a-051455f3862b</elementGuidId>
+   <elementGuidId>e79dce30-64fb-4f8c-8c73-63e9a5ca90dd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +55,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Joao F Frabetti'])[2]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Raul Bortoletto Mariano'])[1]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

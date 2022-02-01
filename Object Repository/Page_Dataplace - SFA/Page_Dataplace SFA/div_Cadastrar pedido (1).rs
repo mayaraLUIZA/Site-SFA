@@ -3,15 +3,14 @@
    <description></description>
    <name>div_Cadastrar pedido (1)</name>
    <tag></tag>
-   <elementGuidId>ea4cacfe-a4b5-45c6-a088-1c3dc64ce8f7</elementGuidId>
+   <elementGuidId>2a88c3df-5c75-4973-b4d3-7826ff2e080c</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-list/div/div/a/button/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +69,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='# 1398'])[1]/preceding::div[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='# 1092'])[1]/preceding::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

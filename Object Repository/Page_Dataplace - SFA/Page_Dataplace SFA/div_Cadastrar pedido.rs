@@ -3,15 +3,14 @@
    <description></description>
    <name>div_Cadastrar pedido</name>
    <tag></tag>
-   <elementGuidId>a278c11f-dd00-4960-9a5d-fa43f4e1a452</elementGuidId>
+   <elementGuidId>807c30ad-5275-4657-a5ff-da4a303d3e43</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-list/div/div/a/button/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +69,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='# 1188'])[1]/preceding::div[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='# 1094'])[1]/preceding::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +84,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='# 1089'])[1]/preceding::div[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='# 1088'])[1]/preceding::div[7]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,15 +3,15 @@
    <description></description>
    <name>div_Cliente</name>
    <tag></tag>
-   <elementGuidId>6e3f01ca-5628-4a65-aea0-96e01c0ef403</elementGuidId>
+   <elementGuidId>9958aa42-0e0c-4a6b-b9cb-ea5dccc01ae8</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div.form-group</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-detail/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-group</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

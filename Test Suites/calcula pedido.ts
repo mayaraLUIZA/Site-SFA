@@ -15,7 +15,7 @@
       <guid>31a11d8e-15ae-40db-9557-dc556848750b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/New Test Case</testCaseId>
+      <testCaseId>Test Cases/TC27- pedido sem desconto</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8d6a93ae-1d21-4948-bfce-2385a8e583c6</id>

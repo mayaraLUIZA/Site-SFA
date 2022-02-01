@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Editar detalhes do pedido_bg-success floa_925a26</name>
    <tag></tag>
-   <elementGuidId>63267a9f-3d8c-4ff4-9e91-f2bcff51e095</elementGuidId>
+   <elementGuidId>e190de4a-8083-4e09-b97f-cc3fc53a2265</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

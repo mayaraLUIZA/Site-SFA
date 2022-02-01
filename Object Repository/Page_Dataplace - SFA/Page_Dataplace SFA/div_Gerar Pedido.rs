@@ -3,15 +3,14 @@
    <description></description>
    <name>div_Gerar Pedido</name>
    <tag></tag>
-   <elementGuidId>37063325-c3f9-4f7e-af8d-0aeed6e42fe4</elementGuidId>
+   <elementGuidId>a040a4c9-0c86-49f3-8326-58a18f87e6b6</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-detail/div[2]/button/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +55,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Joao F Frabetti'])[2]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Raul Bortoletto Mariano'])[1]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
