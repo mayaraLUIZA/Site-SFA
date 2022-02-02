@@ -12,39 +12,42 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>27ebb6b4-0b37-42ef-852d-7f0ad90e463d</testSuiteGuid>
    <testCaseLink>
-      <guid>06893f57-0b03-4afc-9809-1d8748c37de2</guid>
+      <guid>f45d6956-e870-4cde-95c9-26dca8f38ea1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC21- Adicionar descontos ao pedido</testCaseId>
+      <testCaseId>Test Cases/TC27- pedido sem desconto</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>050014f7-5847-4c75-a8e1-3a7d80d9df02</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/calcula pedido</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>683efad2-3e8a-4cfe-947f-14f38aa71561</variableId>
+         <testDataLinkId>050014f7-5847-4c75-a8e1-3a7d80d9df02</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>quantidade</value>
+         <variableId>19202f3b-9e2c-480b-8856-597f3a344a19</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>da90e8d8-7568-4ced-a1e3-79182ec29f1c</variableId>
+         <testDataLinkId>050014f7-5847-4c75-a8e1-3a7d80d9df02</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>desconto1</value>
+         <variableId>9fd5e996-c0bb-43a4-b7d8-9414fc4a291c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>48f88b2a-e04b-4aa6-9cd7-cfc2a7207271</variableId>
+         <testDataLinkId>050014f7-5847-4c75-a8e1-3a7d80d9df02</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>preco</value>
+         <variableId>fd0d33c4-783d-4f14-b966-dea1d8d9aa41</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fba4152a-c373-40de-837a-cfd8aad158a8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>73643203-95e3-4f50-b4a1-11f1c6ddb755</variableId>
+         <testDataLinkId>050014f7-5847-4c75-a8e1-3a7d80d9df02</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>total</value>
+         <variableId>1814d6e9-b42c-4271-a88b-d51796604c54</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

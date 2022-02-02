@@ -27,5 +27,4 @@ public class Home {
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos')
 	}
-	
 }

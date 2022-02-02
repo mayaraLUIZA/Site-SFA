@@ -46,31 +46,31 @@ class FacoLogin {
 
 	@E("faço login (.*)")
 	def facologin(String email) {
-		WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'),
-				 email)
+		if(WebUI.setText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'),
+		email) == true){
+			System.out.println("valido")
+		}
 	}
 	@E("adiciono senha(.*)")
 	def addsenha(String senha) {
 		WebUI.setEncryptedText(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/input_Senha_senha'),
 				senha)
 	}
-	
+
 	@Quando("clico no botão login")
 	def clicobotaologin() {
 		WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace - SFA/div_Login'))
-	    
 	}
-	
+
 	@Entao("visualizo a tela produto")
 	def visualizoproduto() {
 		WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/div_Produtos'))
-		
+
 		WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/button_Produtos e preos_btn btn-secondary btn-sm'))
-		
+
 		WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/a_W3179'))
-		
+
 		WebUI.click(findTestObject('Page_Dataplace - SFA/Page_Dataplace - SFA/Page_Dataplace - SFA (1)/Page_Dataplace SFA/i_Produtos e preos_fas fa-sync-alt'))
 		WebUI.closeBrowser()
-		}
-	
+	}
 }
