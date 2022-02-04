@@ -3,7 +3,7 @@
    <description></description>
    <name>td_R31,80 (1)</name>
    <tag></tag>
-   <elementGuidId>d8134fd1-1a95-4f82-a2e5-c9babc44f908</elementGuidId>
+   <elementGuidId>7512c672-a4f1-4b44-bd4d-098f85ad369f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

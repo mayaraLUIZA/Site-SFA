@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "C2E6503405AB9C1FB7F2D15D1D585449",
+  "keywordFileContentHash": "F29F44798FE088B25A158F053C4CF157",
   "keywordClasses": [
     {
       "name": "adddesconto.Home",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -26,28 +26,22 @@
          <testDataId>Data Files/calcula pedido</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>050014f7-5847-4c75-a8e1-3a7d80d9df02</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>quantidade</value>
-         <variableId>19202f3b-9e2c-480b-8856-597f3a344a19</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e8418798-edd7-47c7-80db-50fd56c7f92b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>050014f7-5847-4c75-a8e1-3a7d80d9df02</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>desconto1</value>
-         <variableId>9fd5e996-c0bb-43a4-b7d8-9414fc4a291c</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a759a596-fd72-47aa-bf05-96ddbfa47ed0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>050014f7-5847-4c75-a8e1-3a7d80d9df02</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>preco</value>
-         <variableId>fd0d33c4-783d-4f14-b966-dea1d8d9aa41</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>050014f7-5847-4c75-a8e1-3a7d80d9df02</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>total</value>
-         <variableId>1814d6e9-b42c-4271-a88b-d51796604c54</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f1796ca3-f122-40cb-b5c6-0d3d3180a5fe</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -8,13 +8,11 @@
    <dataFileGUID>c7c0e778-6030-436e-8450-e53caf8835cd</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>780.944.700-97</data>
-   <data>195.051.870-17</data>
    <data>1</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>cpf</name>
-      <size>3</size>
+      <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

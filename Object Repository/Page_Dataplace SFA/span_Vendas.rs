@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Vendas</name>
    <tag></tag>
-   <elementGuidId>05fe824b-8588-4e55-857e-ea1568073022</elementGuidId>
+   <elementGuidId>3f101e17-6d57-4289-9b7f-84c17e77d264</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='ngb-typeahead-0-2']/ngb-highlight/span</value>
+         <value>//button[@id='ngb-typeahead-0-3']/ngb-highlight/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ngb-typeahead-0-2 > ngb-highlight.ng-star-inserted > span.ngb-highlight.ng-star-inserted</value>
+         <value>#ngb-typeahead-0-3 > ngb-highlight.ng-star-inserted > span.ngb-highlight.ng-star-inserted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,34 +42,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ngb-typeahead-0-2&quot;)/ngb-highlight[@class=&quot;ng-star-inserted&quot;]/span[@class=&quot;ngb-highlight ng-star-inserted&quot;]</value>
+      <value>id(&quot;ngb-typeahead-0-3&quot;)/ngb-highlight[@class=&quot;ng-star-inserted&quot;]/span[@class=&quot;ngb-highlight ng-star-inserted&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='ngb-typeahead-0-2']/ngb-highlight/span</value>
+      <value>//button[@id='ngb-typeahead-0-3']/ngb-highlight/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendas'])[2]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendas'])[3]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendas'])[4]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cliente'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data de emissão do pedido'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[3]/ngb-highlight/span</value>
+      <value>//button[4]/ngb-highlight/span</value>
    </webElementXpaths>
 </WebElementEntity>

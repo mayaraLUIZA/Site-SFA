@@ -18,15 +18,15 @@
       <testCaseId>Test Cases/TC26- Validacao cpf cliente</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>709051b4-f381-483c-a589-da4cd40a4814</id>
+         <id>980be08b-0b95-4226-9a0c-794d258a9405</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/validacao cpf cliente</testDataId>
+         <testDataId>Data Files/New Test Data</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>709051b4-f381-483c-a589-da4cd40a4814</testDataLinkId>
+         <testDataLinkId>980be08b-0b95-4226-9a0c-794d258a9405</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>cpf</value>
          <variableId>88f421ed-e184-432b-b963-a6bb42a069cb</variableId>

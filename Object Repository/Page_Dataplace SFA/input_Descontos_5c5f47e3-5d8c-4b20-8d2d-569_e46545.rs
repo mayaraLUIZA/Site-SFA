@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Descontos_5c5f47e3-5d8c-4b20-8d2d-569_e46545</name>
+   <tag></tag>
+   <elementGuidId>af47886b-1074-4735-97d7-3a8119cc43e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;d64733a5-c169-4b01-abea-653c27effaf4&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#5c5f47e3-5d8c-4b20-8d2d-569eba7a680e</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = '5c5f47e3-5d8c-4b20-8d2d-569eba7a680e']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-pristine ng-valid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>5c5f47e3-5d8c-4b20-8d2d-569eba7a680e</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;5c5f47e3-5d8c-4b20-8d2d-569eba7a680e&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='5c5f47e3-5d8c-4b20-8d2d-569eba7a680e']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = '5c5f47e3-5d8c-4b20-8d2d-569eba7a680e']</value>
+   </webElementXpaths>
+</WebElementEntity>

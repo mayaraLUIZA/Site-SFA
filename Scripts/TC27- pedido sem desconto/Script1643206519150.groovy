@@ -17,34 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos')
 
-WebUI.setText(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email (4)'), 
+WebUI.setText(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 
     'mayara.moraes@dataplace.com.br')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace - SFA/input_Senha_senha (4)'), 
-    'jBu/h84nUum0DzfFUdyvAQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace - SFA/input_Senha_senha'), 'jBu/h84nUum0DzfFUdyvAQ==')
 
-WebUI.click(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace - SFA/button_Login (4)'))
+WebUI.click(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace - SFA/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/div_1624 (2)'))
+WebUI.click(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/div_1624'))
 
-WebUI.click(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/button_R2.800,00_minibutton btn default-btn_5f37b0'))
+WebUI.click(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/button_R90,00_minibutton btn default-btn bt_95aa5d'))
 
-WebUI.click(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/div_Quantidade'))
+WebUI.verifyElementText(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/div_R30,00'), 'R$ 30,00')
 
-WebUI.setText(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/input_Quantidade_quantidade (3)'), '3')
+WebUI.setText(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/input_Quantidade_quantidade'), quantidade)
 
-WebUI.click(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/input_R_precoLiquido (4)'))
+WebUI.setText(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/input_R_precoLiquido'), preco)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/input_R_precoLiquido (4)'), 
-    '')
+WebUI.verifyElementText(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/div_R30,00'), total)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/div_R210,00'), 'R$ 210,00')
-
-WebUI.click(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/div_Confirmar (3)'))
+WebUI.click(findTestObject('Object Repository/Comercial Vendas/Page_Dataplace SFA/div_Confirmar'))
 
 WebUI.closeBrowser()
+
+if(total == (preco * quantidade) ) {
+	
+	
+	println("calculo correto")
+}else {
+
+	println("incalculo correto")
+
+}
 
